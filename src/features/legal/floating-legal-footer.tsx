@@ -12,25 +12,25 @@ export const FloatingLegalFooter = () => {
       <Typography variant="muted" className="italic">
         &copy; {new Date().getFullYear()}{" "}
         <Link href="/" className="text-orange-500">
-          Lemurian Agency{" "}
+          Portfolio de Andy Ramaroson{" "}
         </Link>
         Tous droits réservés.
         <br className="md:hidden" /> Crée avec{" "}
         <BiSolidHeart className="mx-1 inline-block text-red-600" />
         par{" "}
-        <Link href="https://andyramaroson.com" className="text-orange-500" target="_blank" rel="noopener noreferrer ">
+        <Link href="project-ar-01.vercel.app" className="text-orange-500" target="_blank" rel="noopener noreferrer ">
           Andy Ramaroson
         </Link>
       </Typography>
 
       <div className="flex items-center gap-4">
-        <Link
+        {/* <Link
           className="text-xs text-muted-foreground hover:text-foreground
                      transition-colors hover:underline"
           href="/legal/cvg"
         >
           Cvg
-        </Link>
+        </Link> */}
         <Link
           className="text-xs text-muted-foreground hover:text-foreground
                      transition-colors hover:underline"

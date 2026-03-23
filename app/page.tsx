@@ -46,7 +46,7 @@ const projectsData: ProjectData[] = [
     image: HomRenovXp,
     contentType: "project",
     btn: { href: "projects/renovexpert" },
-    btn1: { href: "https://www.renovxp.vercel.app" },
+    btn1: { href: "https://renovexp.vercel.app/" },
     description:
       "Segment C accompagne les propriétaires dans tous leurs projets de rénovation depuis plus de 15 ans. Site vitrine pour portfolio réalisation, fourniture...",
   },

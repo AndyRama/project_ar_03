@@ -8,35 +8,23 @@ const NAV_COLUMNS = [
   {
     title: "Navigation",
     links: [
-      { label: "Solutions",    href: "/solutions" },
-      { label: "Réalisations", href: "/realisations" },
+      { label: "Accueil",    href: "/" },
+      { label: "Réalisations", href: "#" },
       { label: "Blog",         href: "/posts" },
       { label: "Contact",      href: "/contact" },
-      { label: "À propos",     href: "/about" },
-    ],
-  },
-  {
-    title: "Services",
-    links: [
-      { label: "Création site web",         href: "/site-web" },
-      { label: "Site web clé en main",      href: "/cle-en-main" },
-      { label: "Solutions SEO",             href: "/seo" },
-      { label: "Optimisation GMB",          href: "/gmb" },
-      { label: "Audit de visibilité",       href: "/audit" },
     ],
   },
   {
     title: "Informations",
     links: [
-      { label: "Espace client",           href: "/signin" },
       { label: "Plan du site",            href: "/plan-du-site" },
-      { label: "Performance",target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-01.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
+      { label: "Performance",target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
     ],
   },
 ] as const;
 
 const CONTACT = [
-  { icon: Mail,   label: "Email",     value: "lemurian734@gmail.com" },
+  { icon: Mail,   label: "Email",     value: "andyramaroson@gmail.com" },
   { icon: Phone,  label: "Téléphone", value: "06 30 83 28 75" },
   { icon: MapPin, label: "Adresse",   value: "Bordeaux, Gironde" },
 ] as const;
@@ -54,12 +42,12 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Image
                 src={SiteConfig.appIcon}
-                alt="lemurian app logo"
+                alt="Andy ramaroson logo"
                 width={24}
                 height={24}
               />
               <span className="text-lg font-bold text-foreground">
-                Lemurian Agency
+                Portfolio Andy Ramaroson
               </span>
             </Link>
 
@@ -139,7 +127,7 @@ export function Footer() {
                   Nouvelle-Aquitaine
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  Bordeaux, Mérignac, Pessac, Arcachon et toute la région
+                  Bordeaux, Mérignac, Pessac, ... 
                 </p>
               </div>
             </div>

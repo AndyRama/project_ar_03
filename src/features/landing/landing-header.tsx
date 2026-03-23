@@ -7,18 +7,16 @@ import { motion, useMotionValue, useScroll, useTransform } from "motion/react";
 import { useEffect } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
-import { ThemeToggle } from "../theme/theme-toggle";
+// import { ThemeToggle } from "../theme/theme-toggle";
 import { SiteConfig } from "@/site-config";
 import { AuthButtonClient } from "@/features/auth/auth-button-client";
 
 
 const NAV_LINKS = [
-  // { label: "Créations",      href: "/site-web" },
-  { label: "Solutions",    href: "/solutions" },
-  { label: "Réalisations", href: "/realisations" },
+  { label: "Accueil",    href: "/" },
+  { label: "Réalisations", href: "#" },
   { label: "Blog",         href: "/posts" },
   { label: "Contact",      href: "/contact" },
-  { label: "À propos",      href: "/about" },
 ] as const;
 
 const clamp = (n: number, min: number, max: number) =>
@@ -88,7 +86,7 @@ export function LandingHeader() {
         >
           <Image
             src={SiteConfig.appIcon}
-            alt="lemurian app logo"
+            alt="Andy ramaroson logo"
             width={24}
             height={24}
           />
@@ -103,19 +101,12 @@ export function LandingHeader() {
             className="origin-left text-lg font-bold tracking-tight
                        text-foreground"
           >
-            Lemurian Agency
+            Portfolio Andy R.
           </motion.p>
         </div>
 
         {/* ── Nav desktop — pill ── */}
         <motion.nav
-          // style={{
-          //   opacity: useTransform(
-          //     scrollYBoundedProgressDelayed,
-          //     [0, 1],
-          //     [1, 0]
-          //   ),
-          // }}
           className="hidden items-center gap-1 rounded-md border
                      border-border bg-muted/50 px-2 py-1.5
                      text-sm font-medium backdrop-blur-sm lg:flex
@@ -136,25 +127,18 @@ export function LandingHeader() {
 
         {/* ── Actions droite ── */}
         <motion.div
-          // style={{
-          //   opacity: useTransform(
-          //     scrollYBoundedProgressDelayed,
-          //     [0, 1],
-          //     [1, 0]
-          //   ),
-          // }}
           className="hidden items-center gap-3 lg:flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
           <AuthButtonClient />
           <Link
-            href="#audit-form"
+            href="0630832875"
             className="rounded-md bg-orange-500 border border-border px-4 py-2
             text-sm font-medium text-white transition-all
             hover:border-foreground/40 hover:text-foreground"
           >
-            Prendre RDV
+            06 30 83 28 75
           </Link>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </motion.div>
 
         {/* ── Mobile — Sheet shadcn ── */}
@@ -186,9 +170,9 @@ export function LandingHeader() {
                   className="rounded-sm"
                 />
                 <span className="text-base font-bold text-foreground">
-                  Lemurian Agency
+                  Andy Ramaroson
                 </span>
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
               </div>
 
               <hr className="border-white/10" />
@@ -212,14 +196,14 @@ export function LandingHeader() {
 
               {/* CTAs */}
               <div className="flex flex-col gap-2">
-                <AuthButtonClient />
+                {/* <AuthButtonClient /> */}
                 <Link
-                  href="#audit-form"
+                  href="0630832875"
                   className="block w-full rounded-md bg-orange-500 py-3
                              text-center text-sm font-semibold text-white
                              transition-colors hover:bg-orange-400"
                 >
-                  Prendre RDV
+                  06 30 83 28 75
                 </Link>
               </div>
             </SheetContent>

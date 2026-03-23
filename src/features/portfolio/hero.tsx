@@ -127,12 +127,6 @@ export default function Hero() {
               >
                 Me contacter
               </Link>
-              <Link
-                href="/cv"
-                className="border border-orange-500 text-orange-500 px-6 py-3 rounded-md hover:bg-orange-50 transition duration-300"
-              >
-                Voir mon CV
-              </Link>
             </motion.div>
           </motion.div>
 
