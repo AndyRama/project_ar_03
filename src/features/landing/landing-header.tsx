@@ -72,15 +72,18 @@ export function LandingHeader() {
         ),
       }}
       className="fixed inset-x-0 top-0 z-50 flex w-full
-           border-b border-border bg-background/80
-           shadow-sm backdrop-blur-md"
+     border-b border-transparent bg-transparent
+     shadow-none backdrop-blur-none
+     transition-all duration-300
+     hover:border-border hover:bg-background/80
+     hover:shadow-sm hover:backdrop-blur-md group"
     >
       <div className="mx-auto flex w-full max-w-8xl items-center
                       justify-between px-6 lg:px-8">
 
         {/* ── Logo ── */}
         <div
-          className="flex cursor-pointer items-center gap-2"
+          className="flex cursor-pointer items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           onClick={() => router.push("/")}
         >
           <Image
@@ -106,16 +109,17 @@ export function LandingHeader() {
 
         {/* ── Nav desktop — pill ── */}
         <motion.nav
-          style={{
-            opacity: useTransform(
-              scrollYBoundedProgressDelayed,
-              [0, 1],
-              [1, 0]
-            ),
-          }}
+          // style={{
+          //   opacity: useTransform(
+          //     scrollYBoundedProgressDelayed,
+          //     [0, 1],
+          //     [1, 0]
+          //   ),
+          // }}
           className="hidden items-center gap-1 rounded-md border
                      border-border bg-muted/50 px-2 py-1.5
-                     text-sm font-medium backdrop-blur-sm lg:flex"
+                     text-sm font-medium backdrop-blur-sm lg:flex
+                     opacity-0 group-hover:opacity-100 transition-opacity duration-300 "
         >
           {NAV_LINKS.map(({ label, href }) => (
             <Link
@@ -132,14 +136,14 @@ export function LandingHeader() {
 
         {/* ── Actions droite ── */}
         <motion.div
-          style={{
-            opacity: useTransform(
-              scrollYBoundedProgressDelayed,
-              [0, 1],
-              [1, 0]
-            ),
-          }}
-          className="hidden items-center gap-3 lg:flex"
+          // style={{
+          //   opacity: useTransform(
+          //     scrollYBoundedProgressDelayed,
+          //     [0, 1],
+          //     [1, 0]
+          //   ),
+          // }}
+          className="hidden items-center gap-3 lg:flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
           <AuthButtonClient />
           <Link
