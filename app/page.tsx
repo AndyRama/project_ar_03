@@ -11,6 +11,7 @@ import Portfolio      from "@images/portfolio.png";
 import HomeKasa       from "@images/HomeKasa.png";
 import HomeWealth     from "@images/WealthHealth_1.png";
 import HomeSegment    from "@images/home-segment.png";
+import HomRenovXp    from "@images/renov-expert.jpg";
 import HomeCabinet    from "@images/home-cabinet.png";
 import MovieImg       from "@images/movie.png";
 
@@ -33,6 +34,20 @@ type ProjectData = {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
 const projectsData: ProjectData[] = [
+  {
+    reverse: false,
+    subTitle: "Site vitrine",
+    title: "Renov Exp",
+    time: "4 jrs",
+    mission: "Client Final",
+    developpement: "Full-Stack",
+    image: HomRenovXp,
+    contentType: "project",
+    btn: { href: "projects/renovexpert" },
+    btn1: { href: "https://www.renovxp.vercel.app" },
+    description:
+      "Segment C accompagne les propriétaires dans tous leurs projets de rénovation depuis plus de 15 ans. Site vitrine pour portfolio réalisation, fourniture...",
+  },
   {
     reverse: true,
     subTitle: "Site vitrine",
