@@ -1,7 +1,7 @@
 export const SiteConfig = {
-  title: "Lemurian Agency",
+  title: "Portfolio andy ramaroson",
   description: "Creation de site web et Seo",
-  prodUrl: "https://project-ar-01.vercel.app/",
+  prodUrl: "https://project-ar-03.vercel.app/",
   appId: "Lemurian",
   domain: "demo.nowts.app",
   appIcon: "/images/icon.png",
