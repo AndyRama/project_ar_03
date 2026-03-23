@@ -5,7 +5,7 @@ import { SiteConfig } from "@/site-config";
 import {LandingHeader} from "@/features/landing/landing-header";
 import Hero from "@/features/portfolio/hero";
 import ProjectBanner from "@/features/portfolio/project-banner";
-// import {Footer} from " @/features/layout/footer";
+import {Footer} from "@/features/layout/footer";
 
 import Express        from "@images/Express4.png";
 import UnlcoachingImg from "@images/unlcoaching.png";
@@ -194,7 +194,7 @@ export default function HomePage() {
           {...project}
         />
       ))}
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
