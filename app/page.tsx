@@ -2,8 +2,10 @@ import type { StaticImageData } from "next/image";
 import type { Metadata } from "next";
 import { SiteConfig } from "@/site-config";
 
+import LandingHeader from "@/features/landing/landing-header";
 import Hero from "@/features/portfolio/hero";
 import ProjectBanner from "@/features/portfolio/project-banner";
+import Footer from "@/features/layout/footer";
 
 import Express        from "@images/Express4.png";
 import UnlcoachingImg from "@images/unlcoaching.png";
@@ -183,6 +185,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+     <LandingHeader/>
       <Hero />
       {projectsData.map((project, index) => (
         <ProjectBanner
@@ -191,6 +194,7 @@ export default function HomePage() {
           {...project}
         />
       ))}
+      <Footer/>
     </>
   );
 }
