@@ -1,18 +1,19 @@
 "use client";
 
 import { useRef } from "react";
-import Image, { StaticImageData } from "next/image";
+import type { StaticImageData } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "motion/react";
 import BtnStack from "./btn-stack";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-interface BtnProps {
+types BtnProps {
   href: string;
 }
 
-export interface ProjectBannerProps {
+export types ProjectBannerProps {
   className?: string;
   title: string;
   subTitle: string;

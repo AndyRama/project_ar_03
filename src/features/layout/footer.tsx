@@ -10,15 +10,21 @@ const NAV_COLUMNS = [
     links: [
       { label: "Accueil",    href: "/" },
       { label: "Réalisations", href: "#" },
-      { label: "Blog",         href: "/posts" },
       { label: "Contact",      href: "/contact" },
     ],
   },
   {
     title: "Informations",
     links: [
+      { label: "Blog",         href: "/posts" },
       { label: "Plan du site",            href: "/plan-du-site" },
+    ],
+  },
+  {
+    title: "Performances",
+    links: [
       { label: "Performance",target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
+      { label: "Co²",target:"_blank", href: "https://www.websitecarbon.com/website/project-ar-03-vercel-app/" },
     ],
   },
 ] as const;
