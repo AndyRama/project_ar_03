@@ -17,7 +17,7 @@ const NAV_COLUMNS = [
     title: "Informations",
     links: [
       { label: "Blog",         href: "/posts" },
-      { label: "Plan du site",            href: "/plan-du-site" },
+      { label: "Plan du site", href: "/plan-du-site" },
     ],
   },
   {
@@ -53,7 +53,7 @@ export function Footer() {
                 height={24}
               />
               <span className="text-lg font-bold text-foreground">
-                Portfolio Andy Ramaroson
+                Portfolio
               </span>
             </Link>
 

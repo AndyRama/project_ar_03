@@ -7,12 +7,10 @@ import { SiteConfig } from "@/site-config";
 import { ThemeToggle } from "../theme/theme-toggle";
 
 const NAV_LINKS = [
-  // { label: "Créations",      href: "/site-web" },
-  { label: "Solutions",     href: "/solutions" },
-  { label: "Réalisations",  href: "/realisations" },
-  { label: "Blog",          href: "/posts" },
-  { label: "Contact",       href: "/contact" },
-  { label: "À propos",      href: "/about" },
+  { label: "Accueil",    href: "/" },
+  { label: "Réalisations", href: "#" },
+  { label: "Blog",         href: "/posts" },
+  { label: "Contact",      href: "/contact" },
 ] as const;
 
 export function Header() {
@@ -27,13 +25,13 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
             src={SiteConfig.appIcon}
-            alt="lemurian app logo"
+            alt="Andy Ramaroson logo"
             width={24}
             height={24}
             className="rounded-sm"
           />
           <span className="text-base font-bold text-foreground">
-            Lemurian Agency
+            Portfolio Andy R.
           </span>
         </Link>
 
@@ -55,17 +53,17 @@ export function Header() {
 
         {/* ── Actions droite ── */}
         <div className="hidden items-center gap-3 lg:flex">
-          <AuthButtonClient />
+          {/* <AuthButtonClient /> */}
           <Link
-            href="/#audit-form"
+            href="0630832875"
             className="rounded-md bg-orange-500 px-4 py-2 text-sm
                        font-semibold text-white transition-all
                        hover:bg-orange-600 hover:shadow-lg
                        hover:shadow-orange-500/30 active:scale-95"
           >
-            Prendre RDV
+            06 30 83 28 75
           </Link>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </div>
 
         {/* ── Mobile — Sheet ── */}
@@ -88,13 +86,13 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-2">
                   <Image
                     src={SiteConfig.appIcon}
-                    alt="lemurian app logo"
+                    alt="Andy Ramaroson logo"
                     width={24}
                     height={24}
                     className="rounded-sm"
                     />
                   <span className="text-base font-bold text-foreground">
-                    Lemurian Agency
+                    Portfolio Andy R.
                   </span>
                 </Link>
                 <ThemeToggle />
@@ -119,14 +117,14 @@ export function Header() {
               <hr className="border-border" />
 
               <div className="flex flex-col gap-2">
-                <AuthButtonClient />
+                {/* <AuthButtonClient /> */}
                 <Link
-                  href="/#audit-form"
+                  href="0630832875"
                   className="block w-full rounded-md bg-orange-500 py-3
                              text-center text-sm font-semibold text-white
                              transition-colors hover:bg-orange-400"
                 >
-                  Prendre RDV
+                  06 30 83 28 75
                 </Link>
               </div>
             </SheetContent>

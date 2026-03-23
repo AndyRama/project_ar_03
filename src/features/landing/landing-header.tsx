@@ -129,7 +129,7 @@ export function LandingHeader() {
         <motion.div
           className="hidden items-center gap-3 lg:flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
-          <AuthButtonClient />
+          {/* <AuthButtonClient /> */}
           <Link
             href="0630832875"
             className="rounded-md bg-orange-500 border border-border px-4 py-2

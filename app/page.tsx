@@ -53,7 +53,7 @@ const projectsData: ProjectData[] = [
   {
     reverse: true,
     subTitle: "Site vitrine",
-    title: "Segment-c.com",
+    title: "Segment-c",
     time: "30 jrs",
     mission: "Client Final",
     developpement: "Full-Stack",
@@ -81,7 +81,7 @@ const projectsData: ProjectData[] = [
   {
     reverse: true,
     subTitle: "Site vitrine",
-    title: "I-doctor.fr",
+    title: "Cabinet médical",
     time: "en cours",
     mission: "Side project",
     developpement: "Full-Stack",
@@ -95,7 +95,7 @@ const projectsData: ProjectData[] = [
   {
     reverse: false,
     subTitle: "Site vitrine",
-    title: "Express-plomberie.com",
+    title: "Express Plomberie",
     time: "10 jrs",
     mission: "Client Final",
     developpement: "Full-Stack",
@@ -109,7 +109,7 @@ const projectsData: ProjectData[] = [
   {
     reverse: true,
     subTitle: "Site vitrine",
-    title: "Unlcoaching.com",
+    title: "Unlcoaching",
     time: "1 mois",
     mission: "Client Final",
     developpement: "Full-Stack",
@@ -123,7 +123,7 @@ const projectsData: ProjectData[] = [
   {
     reverse: false,
     subTitle: "Site vitrine",
-    title: "Andyramaroson.com",
+    title: "Portfolio",
     time: "1 mois",
     mission: "Side Project",
     developpement: "Full-Stack",

@@ -12,13 +12,13 @@ export const FloatingLegalFooter = () => {
       <Typography variant="muted" className="italic">
         &copy; {new Date().getFullYear()}{" "}
         <Link href="/" className="text-orange-500">
-          Portfolio de Andy Ramaroson{" "}
+          Portfolio{" "}
         </Link>
         Tous droits réservés.
         <br className="md:hidden" /> Crée avec{" "}
         <BiSolidHeart className="mx-1 inline-block text-red-600" />
         par{" "}
-        <Link href="project-ar-01.vercel.app" className="text-orange-500" target="_blank" rel="noopener noreferrer ">
+        <Link href="https://project-ar-01.vercel.app" className="text-orange-500" target="_blank" rel="noopener noreferrer ">
           Andy Ramaroson
         </Link>
       </Typography>
@@ -45,13 +45,13 @@ export const FloatingLegalFooter = () => {
         >
           Mentions légales
         </Link>
-        <Link href="/docs" >
+        <Link href="/auth/signin?callbackUrl=/">
           <Image
             src={SiteConfig.appIcon}
             width={18}
             height={18}
             alt="app icon"            
-            />
+          />
         </Link>
       </div>
     </div>
