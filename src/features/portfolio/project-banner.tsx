@@ -9,11 +9,11 @@ import BtnStack from "./btn-stack";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-types BtnProps {
+type BtnProps = {
   href: string;
-}
+};
 
-export types ProjectBannerProps {
+export type ProjectBannerProps = {
   className?: string;
   title: string;
   subTitle: string;
@@ -26,7 +26,7 @@ export types ProjectBannerProps {
   btn1: BtnProps;
   contentType: string;
   reverse?: boolean;
-}
+};
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
