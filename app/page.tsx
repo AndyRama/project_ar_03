@@ -74,7 +74,7 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeLemurian,
     contentType: "project",
-    btn0: { href: "https://www.lemurian.agency" },
+    btn: { href: "https://www.lemurian.agency" },
     btn1: { href: "" },
     description:
       "Lemurian Agency est une agence spécialisée en création de sites web et SEO local pour les artisans et indépendants. Stratégie SEO, optimisation Google Business Profile et partenariat au lead — pour transformer la visibilité Google en machine à générer des clients qualifiés",
