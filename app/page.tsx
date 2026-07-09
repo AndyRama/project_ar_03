@@ -12,10 +12,9 @@ import UnlcoachingImg from "@images/unlcoaching.png";
 import Portfolio      from "@images/portfolio.png";
 import HomeKasa       from "@images/HomeKasa.png";
 import HomeWealth     from "@images/WealthHealth_1.png";
-import HomeSegment    from "@images/home-segment.png";
+import HomeSegment    from "@images/segment-hero.webp";
 import HomRenovXp    from "@images/renov-expert.jpg";
 import HomeCabinet    from "@images/home-cabinet.png";
-// import MovieImg       from "@images/movie.png";
 import HomeAgentAi   from "@images/mon-agent-ai-hero.webp";
 import HomeLemurian       from "@images/lemurian-agency-hero.webp";
 
@@ -47,8 +46,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomRenovXp,
     contentType: "project",
-    btn: { href: "projects/renovexpert" },
-    btn1: { href: "https://renovexp.vercel.app/" },
+    btn: { href: "https://renovexp.vercel.app/" },
+    btn1: { href: "" },
     description:
       "Renov Experts est le site vitrine de Mathieu Hernandez, artisan menuisier basé à Mérignac. Fenêtres, baies vitrées, pergolas bioclimatiques et volets — plus de 200 chantiers réalisés en Gironde, avec devis gratuit sous 48h et SAV garanti dans la durée.",
   },
@@ -61,8 +60,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeSegment,
     contentType: "project",
-    btn: { href: "projects/Segment-c" },
-    btn1: { href: "https://www.segment-c.com" },
+    btn: { href: "https://www.segment-c.com" },
+    btn1: { href: "" },
     description:
       "Segment.C est le site vitrine de Rui De Carvalho, artisan menuisier basé à St jean d'illac. Fenêtres, baies vitrées, portes, pergolas bioclimatiques et volets — plus de 200 chantiers réalisés en Gironde, avec devis gratuit sous 48h et SAV garanti dans la durée.",
   },
@@ -75,8 +74,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeLemurian,
     contentType: "project",
-    btn: { href: "#" },
-    btn1: { href: "https://lemurian.agency" },
+    btn0: { href: "https://www.lemurian.agency" },
+    btn1: { href: "" },
     description:
       "Lemurian Agency est une agence spécialisée en création de sites web et SEO local pour les artisans et indépendants. Stratégie SEO, optimisation Google Business Profile et partenariat au lead — pour transformer la visibilité Google en machine à générer des clients qualifiés",
   },
@@ -89,8 +88,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeAgentAi,
     contentType: "project",
-    btn: { href: "#" },
-    btn1: { href: "https://mon-agent-ia-seven.vercel.app/" },
+    btn: { href: "https://mon-agent-ia-seven.vercel.app/" },
+    btn1: { href: "" },
     description:
       "Mon Agent AI accompagne les entreprises dans leur évolution numérique — Création d'agents sur mesure (Claude, Paperclip, Ollama...), formation sur claude et intégration concrète de l'IA dans vos processus métier, sans compromis sur la souveraineté de vos données.",
   },
@@ -103,8 +102,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeCabinet,
     contentType: "",
-    btn: { href: "#" },
-    btn1: { href: "https://www.docto-iota.vercel.app" },
+    btn: { href: "https://www.docto-iota.vercel.app" },
+    btn1: { href: "" },
     description:
       "i-Doctor est une plateforme innovante permettant de mettre en service une prise de rendez-vous par téléphone avec un assistant I.A. Elle permet aux médecins de planifier facilement leurs consultations par téléphone, tout en optimisant efficacement la gestion de leur emploi du temps.",
   },
@@ -117,8 +116,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: Express,
     contentType: "project",
-    btn: { href: "#" },
-    btn1: { href: "https://express-depannage-plomberie.vercel.app" },
+    btn: { href: "https://express-depannage-plomberie.vercel.app" },
+    btn1: { href: "" },
     description:
       "Express Plomberie est une vitrine dédiée aux services de plomberie d'urgence, disponible 24h/24 et 7j/7 sur Bordeaux. Les utilisateurs peuvent facilement accéder aux informations sur les interventions courantes, les tarifs et les réalisations de l'entreprise.",
   },
@@ -131,8 +130,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: UnlcoachingImg,
     contentType: "",
-    btn: { href: "#" },
-    btn1: { href: "https://www.project-ar-05.vercel.app" },
+    btn: { href: "https://www.project-ar-05.vercel.app" },
+    btn1: { href: "" },
     description:
       "Le site Unlcoaching est une plateforme dédiée au coaching sportif à Bordeaux, dirigée par Jérémy Prat. Il propose des programmes personnalisés combinant entraînement rigoureux et nutrition équilibrée, adaptés aux objectifs de chaque client.",
   },
@@ -145,8 +144,8 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: Portfolio,
     contentType: "project",
-    btn: { href: "#" },
-    btn1: { href: "https://project-ar-03-seven.vercel.app/" },
+    btn: { href: "https://project-ar-03-seven.vercel.app/" },
+    btn1: { href: "" },
     description:
       "Portfolio personnel présentant mes réalisations clients et projets personnels. Refonte complète avec Next.js, React, Tailwind CSS, Motion et déploiement sur VPS via Coolify.",
   },
@@ -159,8 +158,8 @@ const projectsData: ProjectData[] = [
     developpement: "Front-End",
     image: HomeWealth,
     contentType: "project",
-    btn: { href: "projects/WealthHealth" },
-    btn1: { href: "https://wealth-health-phi.vercel.app" },
+    btn: { href: "https://wealth-health-phi.vercel.app" },
+    btn1: { href: "" },
     description:
       "Application web interne pour l'entreprise HRnet. Permet de lister les employés avec création via formulaire, modal de confirmation et tableau récapitulatif des données.",
   },
@@ -173,8 +172,8 @@ const projectsData: ProjectData[] = [
     developpement: "Front-End",
     image: HomeKasa,
     contentType: "project",
-    btn: { href: "projects/Kasa" },
-    btn1: { href: "https://andyrama.github.io/AndyRamaroson_11_25112021/" },
+    btn: { href: "https://andyrama.github.io/AndyRamaroson_11_25112021/" },
+    btn1: { href: "" },
     description:
       "Refonte totale du site Kasa, plateforme de location de logements entre particuliers. Migration depuis ASP.NET vers une stack JavaScript moderne avec Node.js côté back-end et React côté front-end.",
   },
