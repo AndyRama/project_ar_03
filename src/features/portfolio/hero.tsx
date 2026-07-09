@@ -43,8 +43,7 @@ export default function Hero() {
           </li>
           <li>
             <Link
-              href="/images/Cv_Ramaroson_Andy_lead_dev.pdf"
-              target="_blank"
+              href="/cv"
               className="hover:text-orange-500 transition duration-300"
             >
               CV

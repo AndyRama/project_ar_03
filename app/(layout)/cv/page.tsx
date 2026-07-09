@@ -393,36 +393,6 @@ export default function CVPage() {
 
           </div>
         </div>
-
-        {/* ── Footer CV ── */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2, duration: 0.5, ease }}
-          className="mt-16 pt-8 border-t border-zinc-100 flex flex-col sm:flex-row items-center justify-between gap-4"
-        >
-          <span className="text-xs text-zinc-400">
-            © {new Date().getFullYear()} Andy Ramaroson — andyramaroson.com
-          </span>
-          <a
-            href="/images/Cv_Ramaroson_Andy_lead_dev.pdf"
-            download
-            className="inline-flex items-center gap-2 px-4 py-2 border border-zinc-200 text-zinc-600 text-xs font-semibold rounded-xl hover:bg-zinc-50 transition-colors duration-200"
-          >
-            Télécharger le PDF
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-3.5 w-3.5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2.5}
-            >
-              <path d="M12 5v14m-7-7l7 7 7-7" />
-            </svg>
-          </a>
-        </motion.div>
       </div>
     </main>
   );
