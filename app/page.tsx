@@ -102,7 +102,7 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: HomeCabinet,
     contentType: "",
-    btn: { href: "https://www.docto-iota.vercel.app" },
+    btn: { href: "https://docto-iota.vercel.app" },
     btn1: { href: "" },
     description:
       "i-Doctor est une plateforme innovante permettant de mettre en service une prise de rendez-vous par téléphone avec un assistant I.A. Elle permet aux médecins de planifier facilement leurs consultations par téléphone, tout en optimisant efficacement la gestion de leur emploi du temps.",
@@ -130,7 +130,7 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: UnlcoachingImg,
     contentType: "",
-    btn: { href: "https://www.project-ar-05.vercel.app" },
+    btn: { href: "https://project-ar-05.vercel.app" },
     btn1: { href: "" },
     description:
       "Le site Unlcoaching est une plateforme dédiée au coaching sportif à Bordeaux, dirigée par Jérémy Prat. Il propose des programmes personnalisés combinant entraînement rigoureux et nutrition équilibrée, adaptés aux objectifs de chaque client.",
@@ -144,7 +144,7 @@ const projectsData: ProjectData[] = [
     developpement: "Full-Stack",
     image: Portfolio,
     contentType: "project",
-    btn: { href: "https://project-ar-03-seven.vercel.app/" },
+    btn: { href: "https://lemurian.agency" },
     btn1: { href: "" },
     description:
       "Portfolio personnel présentant mes réalisations clients et projets personnels. Refonte complète avec Next.js, React, Tailwind CSS, Motion et déploiement sur VPS via Coolify.",

@@ -38,7 +38,22 @@ const softSkills = [
 
 const experiences = [
   {
-    company: "Segment-c.com",
+    company: "Renov Expert",
+    sector: "Menuiserie",
+    period: "Oct. 2025 — Jan. 2026",
+    type: "Site vitrine + blog",
+    url: "https://renovexp.vercel.app",
+    tasks: [
+      "Développement d'un site pour une entreprise de rénovation en bâtiment",
+      "Élaboration du cahier des charges en collaboration directe avec le client",
+      "Design et prototypage de l'interface utilisateur (Figma)",
+      "Développement full-stack de la solution complète",
+      "Intégration d'outils IA pour accélérer la conception et la rédaction de contenu",
+      "Mise en production et maintenance continue du site",
+    ],
+  },
+  {
+    company: "Segment.C",
     sector: "Menuiserie",
     period: "Oct. 2025 — Jan. 2026",
     type: "Site vitrine + blog",
@@ -53,7 +68,7 @@ const experiences = [
     ],
   },
   {
-    company: "Andyramaroson.com",
+    company: "Andy ramaroson",
     sector: "Portfolio personnel",
     period: "Mai — Juin 2025",
     type: "Site vitrine + blog",
@@ -65,7 +80,7 @@ const experiences = [
     ],
   },
   {
-    company: "Unlcoaching.com",
+    company: "Unlcoaching",
     sector: "Coach sportif",
     period: "Jan. — Fév. 2025",
     type: "Site vitrine + blog",
@@ -79,7 +94,7 @@ const experiences = [
     ],
   },
   {
-    company: "Express-plomberie.com",
+    company: "Express-plomberie",
     sector: "Plombier artisant",
     period: "Oct. — Nov. 2024",
     type: "Site vitrine",
@@ -93,11 +108,23 @@ const experiences = [
       "Support technique et maintenance régulière",
     ],
   },
+  {
+    company: "I-doctor",
+    sector: "Santé / IA",
+    period: "En cours",
+    type: "Plateforme SaaS",
+    url: "https://i-doctor.fr",
+    tasks: [
+      "Plateforme de prise de rendez-vous par téléphone avec assistant IA",
+      "Gestion de planning optimisée pour les médecins",
+      "Stack : Next.js, Postgres, NextAuth, Stripe, TypeScript",
+    ],
+  },
 ];
 
 const otherProjects = [
   {
-    company: "Mon-agent-ai.com",
+    company: "Mon-agent-ai.fr",
     sector: "Agent IA",
     period: "Jan. 2025 — aujourd'hui",
     type: "Site vitrine + blog",
@@ -110,15 +137,16 @@ const otherProjects = [
     ],
   },
   {
-    company: "I-doctor.fr",
+    company: "lemurian.agency",
     sector: "Santé / IA",
     period: "En cours",
     type: "Plateforme SaaS",
-    url: "https://i-doctor.fr",
+    url: "https://lemurian.agency",
     tasks: [
-      "Plateforme de prise de rendez-vous par téléphone avec assistant IA",
-      "Gestion de planning optimisée pour les médecins",
-      "Stack : Next.js, Postgres, NextAuth, Stripe, TypeScript",
+      "Développement d'une plateforme showcase pour agents IA",
+      "Définition du périmètre fonctionnel et technique",
+      "Conception de l'interface et de l'expérience utilisateur",
+      "Déploiement progressif et maintenance évolutive",
     ],
   },
 ];
