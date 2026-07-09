@@ -42,6 +42,7 @@ const experiences = [
     sector: "Menuiserie",
     period: "Oct. 2025 — Jan. 2026",
     type: "Site vitrine + blog",
+    url: "https://segment-c.com",
     tasks: [
       "Développement d'un site pour une entreprise de rénovation en bâtiment",
       "Élaboration du cahier des charges en collaboration directe avec le client",
@@ -56,6 +57,7 @@ const experiences = [
     sector: "Portfolio personnel",
     period: "Mai — Juin 2025",
     type: "Site vitrine + blog",
+    url: "https://andyramaroson.com",
     tasks: [
       "Conception du site vitrine personnel mettant en valeur mes compétences",
       "Création de l'identité visuelle et prototypage de l'interface",
@@ -67,6 +69,7 @@ const experiences = [
     sector: "Coach sportif",
     period: "Jan. — Fév. 2025",
     type: "Site vitrine + blog",
+    url: "https://unlcoaching.com",
     tasks: [
       "Développement d'une plateforme web pour un coach sportif",
       "Analyse des besoins et rédaction du cahier des charges",
@@ -80,6 +83,7 @@ const experiences = [
     sector: "Plombier artisant",
     period: "Oct. — Nov. 2024",
     type: "Site vitrine",
+    url: "https://express-plomberie.com",
     tasks: [
       "Conception d'un site web professionnel pour une entreprise de plomberie",
       "Élaboration du cahier des charges orienté conversion client",
@@ -97,6 +101,7 @@ const otherProjects = [
     sector: "Agent IA",
     period: "Jan. 2025 — aujourd'hui",
     type: "Site vitrine + blog",
+    url: "https://mon-agent-ai.com",
     tasks: [
       "Développement d'une plateforme showcase pour agents IA",
       "Définition du périmètre fonctionnel et technique",
@@ -109,6 +114,7 @@ const otherProjects = [
     sector: "Santé / IA",
     period: "En cours",
     type: "Plateforme SaaS",
+    url: "https://i-doctor.fr",
     tasks: [
       "Plateforme de prise de rendez-vous par téléphone avec assistant IA",
       "Gestion de planning optimisée pour les médecins",
@@ -162,6 +168,7 @@ type ExpItem = {
   sector: string;
   period: string;
   type: string;
+  url?: string;
   tasks: string[];
 };
 
@@ -214,6 +221,30 @@ function ExperienceBlock({ exp, index }: { exp: ExpItem; index: number }) {
           </li>
         ))}
       </ul>
+
+      {/* Bouton de redirection vers le site du projet */}
+      {exp.url && (
+        <div className="flex justify-end mt-4">
+          <a
+            href={exp.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-zinc-500 border border-zinc-200 rounded-full hover:text-zinc-900 hover:border-zinc-300 hover:bg-zinc-50 transition-colors duration-200"
+          >
+            Voir le site
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-3 w-3"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2.5}
+            >
+              <path d="M7 17L17 7M17 7H8M17 7v9" />
+            </svg>
+          </a>
+        </div>
+      )}
     </motion.div>
   );
 }
@@ -392,7 +423,6 @@ export default function CVPage() {
             </svg>
           </a>
         </motion.div>
-
       </div>
     </main>
   );

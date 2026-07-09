@@ -35,6 +35,7 @@ export const FloatingLegalFooter = () => {
           className="text-xs text-muted-foreground hover:text-foreground
                      transition-colors hover:underline"
           href="/legal/privacy"
+          target="_blank"
         >
           Confidentialité
         </Link>
@@ -42,6 +43,7 @@ export const FloatingLegalFooter = () => {
           className="text-xs text-muted-foreground hover:text-foreground
                      transition-colors hover:underline"
           href="/legal/mentions"
+          target="_blank"
         >
           Mentions légales
         </Link>

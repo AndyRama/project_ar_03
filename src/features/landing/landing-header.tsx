@@ -7,10 +7,7 @@ import { motion, useMotionValue, useScroll, useTransform } from "motion/react";
 import { useEffect } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
-// import { ThemeToggle } from "../theme/theme-toggle";
 import { SiteConfig } from "@/site-config";
-import { AuthButtonClient } from "@/features/auth/auth-button-client";
-
 
 const NAV_LINKS = [
   { label: "Accueil",    href: "/" },
