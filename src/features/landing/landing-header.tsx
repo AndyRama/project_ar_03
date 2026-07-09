@@ -11,7 +11,7 @@ import { SiteConfig } from "@/site-config";
 
 const NAV_LINKS = [
   { label: "Accueil",    href: "/" },
-  { label: "Réalisations", href: "/realisations" },
+  // { label: "Réalisations", href: "/realisations" },
   { label: "Blog",         href: "/posts" },
   { label: "Contact",      href: "/contact" },
   { label: "Cv",           href: "/cv" },

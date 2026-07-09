@@ -8,9 +8,10 @@ import { ThemeToggle } from "../theme/theme-toggle";
 
 const NAV_LINKS = [
   { label: "Accueil",    href: "/" },
-  { label: "Réalisations", href: "#" },
+  // { label: "Réalisations", href: "#" },
   { label: "Blog",         href: "/posts" },
   { label: "Contact",      href: "/contact" },
+  { label: "Cv",      href: "/cv" },
 ] as const;
 
 export function Header() {
@@ -92,7 +93,7 @@ export function Header() {
                     className="rounded-sm"
                     />
                   <span className="text-base font-bold text-foreground">
-                    Portfolio Andy R.
+                    Portfolio 
                   </span>
                 </Link>
                 <ThemeToggle />

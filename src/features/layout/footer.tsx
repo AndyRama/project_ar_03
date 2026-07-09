@@ -9,7 +9,7 @@ const NAV_COLUMNS = [
     title: "Navigation",
     links: [
       { label: "Accueil",    href: "/" },
-      { label: "Réalisations", href: "/realisations" },
+      // { label: "Réalisations", href: "/realisations" },
       { label: "Blog",         href: "/posts" },
     ],
   },
@@ -17,14 +17,14 @@ const NAV_COLUMNS = [
     title: "Informations",
     links: [
       { label: "Contact",      href: "/contact" },
-      { label: "Plan du site", href: "/plan-du-site" },
+      { label: "Plan du site", href: "#" },
     ],
   },
   {
     title: "Performances",
     links: [
-      { label: "Performance", target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
-      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/project-ar-03-vercel-app/" },
+      { label: "Performance", target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03-seven.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
+      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/project-ar-03-seven-vercel-app/" },
     ],
   },
 ] as const;
@@ -59,8 +59,7 @@ export function Footer() {
 
             <p className="max-w-xs text-sm leading-relaxed
                           text-muted-foreground">
-              Création site web et SEO locale. On transforme votre 
-              visibilité Google en machine à générer des leads qualifiés.
+              Portfolio de Andy Ramaroson developpeur Full stack Js
             </p>
 
             {/* Contact */}
