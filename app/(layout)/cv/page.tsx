@@ -2,6 +2,7 @@
 
 import type { Variants } from "motion/react";
 import { motion } from "motion/react";
+import Image from "next/image";
 
 // ─── Ease ─────────────────────────────────────────────────────────────────────
 
@@ -43,6 +44,7 @@ const experiences = [
     period: "Oct. 2025 — Jan. 2026",
     type: "Site vitrine + blog",
     url: "https://renovexp.vercel.app",
+    icon: "/icons/renov-expert.png",
     tasks: [
       "Développement d'un site vitrine pour un menuisier",
       "Cahier des charges défini avec le client",
@@ -58,6 +60,7 @@ const experiences = [
     period: "Oct. 2025 — Jan. 2026",
     type: "Site vitrine + blog",
     url: "https://segment-c.com",
+    icon: "/icons/segment-c.png",
     tasks: [
       "Site vitrine pour une entreprise de menuiserie",
       "Catalogue de réalisations organisé par prestation",
@@ -73,6 +76,7 @@ const experiences = [
     period: "Mai — Juin 2025",
     type: "Site vitrine + blog",
     url: "https://andyramaroson.com",
+    icon: "/icons/andy-ramaroson.png",
     tasks: [
       "Conception du portfolio personnel de A à Z",
       "Création de l'identité visuelle du site",
@@ -88,6 +92,7 @@ const experiences = [
     period: "Jan. — Fév. 2025",
     type: "Site vitrine + blog",
     url: "https://unlcoaching.com",
+    icon: "/icons/unlcoaching.png",
     tasks: [
       "Plateforme web développée pour un coach sportif",
       "Analyse des besoins et cahier des charges",
@@ -103,6 +108,7 @@ const experiences = [
     period: "Oct. — Nov. 2024",
     type: "Site vitrine",
     url: "https://express-plomberie.com",
+    icon: "/icons/express-plomberie.png",
     tasks: [
       "Site vitrine pour un plombier d'urgence 24h/24",
       "Cahier des charges orienté conversion client",
@@ -118,6 +124,7 @@ const experiences = [
     period: "En cours",
     type: "Plateforme SaaS",
     url: "https://docto-iota.vercel.app",
+    icon: "/icons/i-doctor.png",
     tasks: [
       "Assistant IA pour la prise de RDV par téléphone",
       "Gestion de planning optimisée pour les médecins",
@@ -127,12 +134,13 @@ const experiences = [
       "Développement en cours, itérations régulières",
     ],
   },
-    {
+  {
     company: "Mon-agent-ai",
     sector: "Agent IA",
     period: "Jan. 2025 — aujourd'hui",
     type: "Site vitrine + blog",
     url: "https://mon-agent-ia-seven.vercel.app",
+    icon: "/icons/mon-agent-ai.png",
     tasks: [
       "Plateforme showcase pour l'accompagnement en IA",
       "Définition du périmètre fonctionnel et technique",
@@ -147,6 +155,7 @@ const experiences = [
     period: "En cours",
     type: "Plateforme SaaS",
     url: "https://lemurian.agency",
+    icon: "/icons/lemurian-agency.png",
     tasks: [
       "Agence SEO local pour artisans et indépendants",
       "Stratégie de contenu et de référencement",
@@ -156,37 +165,6 @@ const experiences = [
     ],
   },
 ];
-
-// const otherProjects = [
-//   {
-//     company: "Mon-agent-ai",
-//     sector: "Agent IA",
-//     period: "Jan. 2025 — aujourd'hui",
-//     type: "Site vitrine + blog",
-//     url: "https://mon-agent-ia-seven.vercel.app",
-//     tasks: [
-//       "Plateforme showcase pour l'accompagnement en IA",
-//       "Définition du périmètre fonctionnel et technique",
-//       "Conception de l'interface et de l'expérience utilisateur",
-//       "Intégration d'agents IA comme Claude et Ollama",
-//       "Déploiement progressif et maintenance évolutive",
-//     ],
-//   },
-//   {
-//     company: "lemurian agency",
-//     sector: "SEO local / Artisans",
-//     period: "En cours",
-//     type: "Plateforme SaaS",
-//     url: "https://lemurian.agency",
-//     tasks: [
-//       "Agence SEO local pour artisans et indépendants",
-//       "Stratégie de contenu et de référencement",
-//       "Optimisation du Google Business Profile",
-//       "Modèle au lead partagé mis en place",
-//       "Conception du parcours client de bout en bout",
-//     ],
-//   },
-// ];
 
 const formations = [
   {
@@ -234,6 +212,7 @@ type ExpItem = {
   period: string;
   type: string;
   url?: string;
+  icon: string;
   tasks: string[];
 };
 
@@ -267,9 +246,18 @@ function ExperienceBlock({ exp, index }: { exp: ExpItem; index: number }) {
       className="group relative pl-4 border-l-2 border-zinc-100 hover:border-zinc-300 transition-colors duration-200"
     >
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
-        <div>
-          <h3 className="text-base font-bold text-zinc-900">{exp.company}</h3>
-          <p className="text-sm text-zinc-400 font-medium">{exp.type}</p>
+        <div className="flex items-center gap-2.5">
+          <Image
+            src={exp.icon}
+            alt={`${exp.company} logo`}
+            width={24}
+            height={24}
+            className="rounded-md shrink-0"
+          />
+          <div>
+            <h3 className="text-base font-bold text-zinc-900">{exp.company}</h3>
+            <p className="text-sm text-zinc-400 font-medium">{exp.type}</p>
+          </div>
         </div>
         <div className="flex flex-col sm:items-end gap-0.5 shrink-0">
           <span className="text-xs font-semibold text-zinc-500 bg-zinc-50 border border-zinc-100 px-2.5 py-1 rounded-full w-fit">
@@ -287,7 +275,6 @@ function ExperienceBlock({ exp, index }: { exp: ExpItem; index: number }) {
         ))}
       </ul>
 
-      {/* Bouton de redirection vers le site du projet */}
       {exp.url && (
         <div className="flex justify-end mt-4">
           <a
