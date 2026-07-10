@@ -28,7 +28,7 @@ export const projects: Project[] = [
     slug: "segment-c",
     title: "Segment-c.com",
     description:
-      "Site vitrine pour une entreprise de rénovation présente depuis plus de 15 ans. Présentation des réalisations, formulaire de contact et devis en ligne.",
+      "Site vitrine pour une entreprise de rénovation implantée depuis plus de 15 ans : mise en avant des réalisations, prise de contact simplifiée et devis en ligne pour convertir plus facilement les visiteurs en clients.",
     image: "/images/home-segment.jpg",
     type: "Site vitrine",
     duration: "30 jrs",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     slug: "i-doctor",
     title: "I-doctor.fr",
     description:
-      "Plateforme innovante de prise de rendez-vous par téléphone avec assistant IA. Gestion de planning optimisée pour les médecins.",
+      "Un assistant IA répond au téléphone et prend les rendez-vous médicaux à la place du secrétariat. Les praticiens gagnent du temps sur la gestion du planning et leurs patients une disponibilité 24h/24.",
     image: "/images/home-cabinet.png",
     type: "Full-Stack",
     duration: "En cours",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     slug: "unlcoaching",
     title: "Unlcoaching.com",
     description:
-      "Plateforme de coaching sportif à Bordeaux. Programmes personnalisés alliant entraînement et nutrition, avec espace client sécurisé.",
+      "Plateforme de coaching sportif à Bordeaux avec espace client sécurisé : chaque sportif suit un programme d'entraînement et de nutrition personnalisé, construit autour de ses propres objectifs.",
     image: "/images/unlcoaching.png",
     type: "Full-Stack",
     duration: "1 mois",
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     slug: "express-plomberie",
     title: "Express-plomberie.com",
     description:
-      "Site vitrine pour une entreprise de plomberie d'urgence disponible 24h/24. Tarifs, réalisations et témoignages clients.",
+      "Site vitrine pour une entreprise de plomberie d'urgence joignable 24h/24 : tarifs clairs, réalisations et avis clients accessibles en quelques secondes, pour rassurer un visiteur en pleine urgence.",
     image: "/images/Express4.png",
     type: "Site vitrine",
     duration: "10 jrs",

@@ -49,7 +49,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://renovexp.vercel.app/" },
     btn1: { href: "" },
     description:
-      "Renov Experts est le site vitrine de Mathieu Hernandez, artisan menuisier basé à Mérignac. Fenêtres, baies vitrées, pergolas bioclimatiques et volets — plus de 200 chantiers réalisés en Gironde, avec devis gratuit sous 48h et SAV garanti dans la durée.",
+      "Renov Experts est le site vitrine de Mathieu Hernandez, menuisier à Mérignac : plus de 200 chantiers réalisés en Gironde (fenêtres, baies vitrées, pergolas bioclimatiques, volets). Devis en ligne sous 48h et suivi SAV pour rassurer une clientèle exigeante..",
   },
   {
     reverse: true,
@@ -63,7 +63,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://www.segment-c.com" },
     btn1: { href: "" },
     description:
-      "Segment.C est le site vitrine de Rui De Carvalho, artisan menuisier basé à St jean d'illac. Fenêtres, baies vitrées, portes, pergolas bioclimatiques et volets — plus de 200 chantiers réalisés en Gironde, avec devis gratuit sous 48h et SAV garanti dans la durée.",
+      "Vitrine pour Segment.C, l'entreprise de menuiserie de Rui De Carvalho à Saint-Jean-d'Illac. Catalogue complet (portes, fenêtres, baie vitrée, volets) pensé pour convertir les visiteurs en demandes de devis.",
   },
   {
     reverse: false,
@@ -77,7 +77,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://www.lemurian.agency" },
     btn1: { href: "" },
     description:
-      "Lemurian Agency est une agence spécialisée en création de sites web et SEO local pour les artisans et indépendants. Stratégie SEO, optimisation Google Business Profile et partenariat au lead — pour transformer la visibilité Google en machine à générer des clients qualifiés",
+      "Création de sites et SEO local dédiée aux artisans et indépendants. Stratégie de contenu, optimisation Google Business Profile et modèle au lead partagé, pour transformer la visibilité Google en rendez-vous qualifiés.",
   },
   {
     reverse: true,
@@ -91,7 +91,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://mon-agent-ia-seven.vercel.app/" },
     btn1: { href: "" },
     description:
-      "Mon Agent AI accompagne les entreprises dans leur évolution numérique — Création d'agents sur mesure (Claude, Paperclip, Ollama...), formation sur claude et intégration concrète de l'IA dans vos processus métier, sans compromis sur la souveraineté de vos données.",
+      "Plateforme d'accompagnement pour intégrer l'IA en entreprise : agents sur mesure (Claude, Hermes, Ollama...), formation aux outils et mise en place de workflows concrets, sans jamais sacrifier la souveraineté des données.",
   },
   {
     reverse: false,
@@ -119,7 +119,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://express-depannage-plomberie.vercel.app" },
     btn1: { href: "" },
     description:
-      "Express Plomberie est une vitrine dédiée aux services de plomberie d'urgence, disponible 24h/24 et 7j/7 sur Bordeaux. Les utilisateurs peuvent facilement accéder aux informations sur les interventions courantes, les tarifs et les réalisations de l'entreprise.",
+      "Vitrine pour un service de plomberie d'urgence à Bordeaux, disponible 24h/24 et 7j/7. Accès rapide aux tarifs, interventions courantes et réalisations, pensé pour convertir en pleine urgence.",
   },
   {
     reverse: false,
@@ -133,7 +133,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://project-ar-05.vercel.app" },
     btn1: { href: "" },
     description:
-      "Le site Unlcoaching est une plateforme dédiée au coaching sportif à Bordeaux, dirigée par Jérémy Prat. Il propose des programmes personnalisés combinant entraînement rigoureux et nutrition équilibrée, adaptés aux objectifs de chaque client.",
+      "Plateforme de coaching sportif à Bordeaux avec Jérémy Prat : programmes d'entraînement et de nutrition personnalisés selon les objectifs de chaque client, dans une interface claire et motivante.",
   },
   {
     reverse: true,
@@ -147,7 +147,7 @@ const projectsData: ProjectData[] = [
     btn: { href: "https://lemurian.agency" },
     btn1: { href: "" },
     description:
-      "Portfolio personnel présentant mes réalisations clients et projets personnels. Refonte complète avec Next.js, React, Tailwind CSS, Motion et déploiement sur VPS via Coolify.",
+      "Refonte complète de mon portfolio personnel : Next.js, React, Tailwind CSS et Motion, déployé sur VPS via Coolify. Un terrain d'expérimentation permanent pour tester de nouvelles approches techniques.",
   },
   {
     reverse: false,
