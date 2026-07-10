@@ -23,8 +23,8 @@ const NAV_COLUMNS = [
   {
     title: "Performances",
     links: [
-      { label: "Performance", target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03-seven.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
-      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/mon-agent-ia-seven-vercel-app" },
+      { label: "Performance", target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fandyramaroson.com%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
+      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/andyramaroson.com" },
     ],
   },
 ] as const;
