@@ -57,7 +57,7 @@ const experiences = [
   {
     company: "Segment.C",
     sector: "Menuiserie",
-    period: "Oct. 2025 — Jan. 2026",
+    period: "Oct. 2025 — Fev. 2026",
     type: "Site vitrine + blog",
     url: "https://segment-c.com",
     icon: "images/icons/segment-c.png",
@@ -73,7 +73,7 @@ const experiences = [
   {
     company: "Mon-agent-ai",
     sector: "Agent IA",
-    period: "Août — Sept. 2025",
+    period: "Sept. — Oct. 2025",
     type: "Site vitrine + blog",
     url: "https://mon-agent-ia-seven.vercel.app",
     icon: "images/icons/mon-agent-ai.png",
@@ -88,7 +88,7 @@ const experiences = [
   {
     company: "Unlcoaching",
     sector: "Coach sportif",
-    period: "Sept. — Oct. 2025",
+    period: "Août — Sept. 2025",
     type: "Site vitrine + blog",
     url: "https://unlcoaching.com",
     icon: "images/icons/unlcoaching.png",
@@ -104,7 +104,7 @@ const experiences = [
   {
     company: "Lemurian agency",
     sector: "SEO local / Artisans",
-    period: "Juin  — Juil. 2025",
+    period: "Mai  — Juin 2025",
     type: "Plateforme SaaS",
     url: "https://lemurian.agency",
     icon: "images/icons/lemurian-agency.png",
@@ -119,7 +119,7 @@ const experiences = [
   {
     company: "I-doctor",
     sector: "Santé / IA",
-    period: "Mai — Juin 2025",
+    period: "Mars — Avril 2025",
     type: "Plateforme SaaS",
     url: "https://docto-iota.vercel.app",
     icon: "images/icons/i-doctor.png",
@@ -135,7 +135,7 @@ const experiences = [
   {
     company: "Express plomberie",
     sector: "Plombier artisan",
-    period: "Mars — Avril 2025",
+    period: "sept. — Oct 2025",
     type: "Site vitrine",
     url: "https://express-plomberie.com",
     icon: "images/icons/express-plomberie.png",
@@ -151,7 +151,7 @@ const experiences = [
   {
     company: "Andy ramaroson",
     sector: "Portfolio personnel",
-    period: "Janv. — Fev. 2025",
+    period: "Juin — Juil. 2023",
     type: "Site vitrine + blog",
     url: "https://andyramaroson.com",
     icon: "images/icons/andy-ramaroson.png",
@@ -168,6 +168,22 @@ const experiences = [
 
 const otherProjects = [
   {
+    company: "WealthHealth",
+    sector: "Ressources Humaines",
+    period: "Janv. — Fév. 2023",
+    type: "Refonte React (HRnet)",
+    url: "https://andy-ramaroson-14-25112021.vercel.app",
+    icon: "images/icons/wealthhealth.png",
+    tasks: [
+      "Migration d'une application RH de jQuery vers React",
+      "Remplacement des plugins jQuery par des équivalents React",
+      "Création et publication d'un plugin modale sur npm",
+      "Refonte du design, cohérente avec l'identité de l'entreprise",
+      "Déploiement front-end et comparatif de performances",
+      "Analyse des performances avec Lighthouse",
+    ],
+  },
+  {
     company: "Kasa",
     sector: "Location entre particuliers",
     period: "Sept. — Oct. 2022",
@@ -181,22 +197,6 @@ const otherProjects = [
       "Mise en place du routing avec React Router",
       "Respect de coding guidelines strictes fournies par le client",
       "Structuration des routes dans un fichier dédié",
-    ],
-  },
-  {
-    company: "WealthHealth",
-    sector: "RH",
-    period: "Janv. — Fév. 2023",
-    type: "Refonte React (HRnet)",
-    url: "https://andy-ramaroson-14-25112021.vercel.app",
-    icon: "images/icons/wealthhealth.png",
-    tasks: [
-      "Migration d'une application RH de jQuery vers React",
-      "Remplacement des plugins jQuery par des équivalents React",
-      "Création et publication d'un plugin modale sur npm",
-      "Refonte du design, cohérente avec l'identité de l'entreprise",
-      "Déploiement front-end et comparatif de performances",
-      "Analyse des performances avec Lighthouse",
     ],
   },
 ];
