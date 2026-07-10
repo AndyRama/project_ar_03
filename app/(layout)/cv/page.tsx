@@ -113,7 +113,7 @@ const experiences = [
     sector: "Santé / IA",
     period: "En cours",
     type: "Plateforme SaaS",
-    url: "https://i-doctor.fr",
+    url: "https://docto-iota.vercel.app",
     tasks: [
       "Plateforme de prise de rendez-vous par téléphone avec assistant IA",
       "Gestion de planning optimisée pour les médecins",
@@ -124,11 +124,11 @@ const experiences = [
 
 const otherProjects = [
   {
-    company: "Mon-agent-ai.fr",
+    company: "Mon-agent-ai",
     sector: "Agent IA",
     period: "Jan. 2025 — aujourd'hui",
     type: "Site vitrine + blog",
-    url: "https://mon-agent-ai.com",
+    url: "https://mon-agent-ia-seven.vercel.app",
     tasks: [
       "Développement d'une plateforme showcase pour agents IA",
       "Définition du périmètre fonctionnel et technique",
@@ -137,7 +137,7 @@ const otherProjects = [
     ],
   },
   {
-    company: "lemurian.agency",
+    company: "lemurian agency",
     sector: "Santé / IA",
     period: "En cours",
     type: "Plateforme SaaS",
