@@ -16,8 +16,8 @@ const NAV_COLUMNS = [
   {
     title: "Informations",
     links: [
-      { label: "LinkedIn",  target:"_blank" href: "https://www.linkedin.com/in/andy-ramaroson/" },
-      { label: "GitHub",    target:"_blank" href: "https://github.com/AndyRama" },
+      { label: "LinkedIn",  target:"_blank", href: "https://www.linkedin.com/in/andy-ramaroson/" },
+      { label: "GitHub",    target:"_blank", href: "https://github.com/AndyRama" },
     ],
   },
   {
