@@ -9,15 +9,15 @@ const NAV_COLUMNS = [
     title: "Navigation",
     links: [
       { label: "Accueil",    href: "/" },
-      { label: "Blog",         href: "/posts" },
+      { label: "Blog",       href: "/posts" },
+      { label: "Cv",         href: "/cv" },
     ],
   },
   {
     title: "Informations",
     links: [
-      { label: "Cv", href: "/cv" },
-      { label: "Contact",      href: "/contact" },
-      // { label: "Plan du site", href: "#" },
+      { label: "LinkedIn",  target:"_blank" href: "https://www.linkedin.com/in/andy-ramaroson/" },
+      { label: "GitHub",    target:"_blank" href: "https://github.com/AndyRama" },
     ],
   },
   {
