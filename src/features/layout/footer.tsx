@@ -9,22 +9,22 @@ const NAV_COLUMNS = [
     title: "Navigation",
     links: [
       { label: "Accueil",    href: "/" },
-      // { label: "Réalisations", href: "/realisations" },
       { label: "Blog",         href: "/posts" },
     ],
   },
   {
     title: "Informations",
     links: [
+      { label: "Cv", href: "/cv" },
       { label: "Contact",      href: "/contact" },
-      { label: "Plan du site", href: "#" },
+      // { label: "Plan du site", href: "#" },
     ],
   },
   {
     title: "Performances",
     links: [
       { label: "Performance", target:"_blank", href: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fproject-ar-03-seven.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext#" },
-      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/project-ar-03-seven-vercel-app/" },
+      { label: "Co²", target:"_blank", href: "https://www.websitecarbon.com/website/mon-agent-ia-seven-vercel-app" },
     ],
   },
 ] as const;
@@ -53,13 +53,13 @@ export function Footer() {
                 height={24}
               />
               <span className="text-lg font-bold text-foreground">
-                Portfolio
+                Portfolio Andy Ramaroson
               </span>
             </Link>
 
             <p className="max-w-xs text-sm leading-relaxed
                           text-muted-foreground">
-              Portfolio de Andy Ramaroson developpeur Full stack Js
+              Développeur Full Stack spécialisé en JavaScript, TypeScript et Next.js. Je conçois des applications web rapides, robustes et bien pensées, du back-end à l'interface.
             </p>
 
             {/* Contact */}
@@ -113,7 +113,7 @@ export function Footer() {
         {/* ── Bannière Zone d'intervention ── */}
         <div className="mt-12">
           <Link
-            href="/zone-intervention"
+            href="#"
             className="flex items-center justify-between rounded-xl
                        border border-orange-500/20 bg-orange-500/5
                        px-6 py-4 transition-all
