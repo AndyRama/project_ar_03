@@ -41,7 +41,7 @@ const experiences = [
   {
     company: "Renov Expert",
     sector: "Menuiserie",
-    period: "Oct. 2025 — Jan. 2026",
+    period: "Mars — Avril 2026",
     type: "Site vitrine + blog",
     url: "https://renovexp.vercel.app",
     icon: "images/icons/renov-expert.png",
@@ -73,7 +73,7 @@ const experiences = [
   {
     company: "Mon-agent-ai",
     sector: "Agent IA",
-    period: "Jan. 2025 — aujourd'hui",
+    period: "Août — Sept. 2025",
     type: "Site vitrine + blog",
     url: "https://mon-agent-ia-seven.vercel.app",
     icon: "images/icons/mon-agent-ai.png",
@@ -88,7 +88,7 @@ const experiences = [
   {
     company: "Unlcoaching",
     sector: "Coach sportif",
-    period: "Jan. — Fév. 2025",
+    period: "Juin — Juil. 2025",
     type: "Site vitrine + blog",
     url: "https://unlcoaching.com",
     icon: "images/icons/unlcoaching.png",
@@ -104,7 +104,7 @@ const experiences = [
   {
     company: "Lemurian agency",
     sector: "SEO local / Artisans",
-    period: "En cours",
+    period: "Mai  — Juin 2025",
     type: "Plateforme SaaS",
     url: "https://lemurian.agency",
     icon: "images/icons/lemurian-agency.png",
@@ -119,7 +119,7 @@ const experiences = [
   {
     company: "I-doctor",
     sector: "Santé / IA",
-    period: "En cours",
+    period: "Mars — Avril 2025",
     type: "Plateforme SaaS",
     url: "https://docto-iota.vercel.app",
     icon: "images/icons/i-doctor.png",
@@ -135,7 +135,7 @@ const experiences = [
   {
     company: "Andy ramaroson",
     sector: "Portfolio personnel",
-    period: "Mai — Juin 2025",
+    period: "Janv. — Fev. 2025",
     type: "Site vitrine + blog",
     url: "https://andyramaroson.com",
     icon: "images/icons/andy-ramaroson.png",
@@ -250,8 +250,8 @@ function ExperienceBlock({ exp, index }: { exp: ExpItem; index: number }) {
           <Image
             src={exp.icon}
             alt={`${exp.company} logo`}
-            width={24}
-            height={24}
+            width={32}
+            height={32}
             className="object-contain"
           />
           <div>
@@ -281,7 +281,7 @@ function ExperienceBlock({ exp, index }: { exp: ExpItem; index: number }) {
             href={exp.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-zinc-500 border border-zinc-200 rounded-full hover:text-zinc-900 hover:border-zinc-300 hover:bg-zinc-50 transition-colors duration-200"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-zinc-500 border border-orange-200 rounded-full hover:text-zinc-900 hover:border-orange-300 hover:bg-zinc-50 transition-colors duration-200"
           >
             Voir le site
             <svg
