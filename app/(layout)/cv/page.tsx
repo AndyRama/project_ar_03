@@ -173,7 +173,7 @@ const otherProjects = [
     sector: "Ressources Humaines",
     period: "Janv. — Fév. 2023",
     type: "Refonte React (HRnet)",
-    url: "https://andy-ramaroson-14-25112021.vercel.app",
+    url: "https://wealth-health-phi.vercel.app",
     icon: "/images/icons/wealthhealth.png",
     tasks: [
       "Migration d'une application RH de jQuery vers React",
