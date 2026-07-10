@@ -127,10 +127,7 @@ const experiences = [
       "Développement en cours, itérations régulières",
     ],
   },
-];
-
-const otherProjects = [
-  {
+    {
     company: "Mon-agent-ai",
     sector: "Agent IA",
     period: "Jan. 2025 — aujourd'hui",
@@ -159,6 +156,37 @@ const otherProjects = [
     ],
   },
 ];
+
+// const otherProjects = [
+//   {
+//     company: "Mon-agent-ai",
+//     sector: "Agent IA",
+//     period: "Jan. 2025 — aujourd'hui",
+//     type: "Site vitrine + blog",
+//     url: "https://mon-agent-ia-seven.vercel.app",
+//     tasks: [
+//       "Plateforme showcase pour l'accompagnement en IA",
+//       "Définition du périmètre fonctionnel et technique",
+//       "Conception de l'interface et de l'expérience utilisateur",
+//       "Intégration d'agents IA comme Claude et Ollama",
+//       "Déploiement progressif et maintenance évolutive",
+//     ],
+//   },
+//   {
+//     company: "lemurian agency",
+//     sector: "SEO local / Artisans",
+//     period: "En cours",
+//     type: "Plateforme SaaS",
+//     url: "https://lemurian.agency",
+//     tasks: [
+//       "Agence SEO local pour artisans et indépendants",
+//       "Stratégie de contenu et de référencement",
+//       "Optimisation du Google Business Profile",
+//       "Modèle au lead partagé mis en place",
+//       "Conception du parcours client de bout en bout",
+//     ],
+//   },
+// ];
 
 const formations = [
   {
@@ -419,14 +447,14 @@ export default function CVPage() {
             </div>
 
             {/* Autres projets */}
-            <div>
+            {/* <div>
               <SectionTitle>Autres projets</SectionTitle>
               <div className="flex flex-col gap-8">
                 {otherProjects.map((exp, i) => (
                   <ExperienceBlock key={exp.company} exp={exp} index={i} />
                 ))}
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
