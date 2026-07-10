@@ -88,7 +88,7 @@ const experiences = [
   {
     company: "Unlcoaching",
     sector: "Coach sportif",
-    period: "Juin — Juil. 2025",
+    period: "Sept. — Oct. 2025",
     type: "Site vitrine + blog",
     url: "https://unlcoaching.com",
     icon: "images/icons/unlcoaching.png",
@@ -104,7 +104,7 @@ const experiences = [
   {
     company: "Lemurian agency",
     sector: "SEO local / Artisans",
-    period: "Mai  — Juin 2025",
+    period: "Juin  — Juil. 2025",
     type: "Plateforme SaaS",
     url: "https://lemurian.agency",
     icon: "images/icons/lemurian-agency.png",
@@ -119,7 +119,7 @@ const experiences = [
   {
     company: "I-doctor",
     sector: "Santé / IA",
-    period: "Mars — Avril 2025",
+    period: "Mai — Juin 2025",
     type: "Plateforme SaaS",
     url: "https://docto-iota.vercel.app",
     icon: "images/icons/i-doctor.png",
@@ -130,6 +130,22 @@ const experiences = [
       "Paiement en ligne intégré via Stripe",
       "Base de données PostgreSQL pour les rendez-vous",
       "Développement en cours, itérations régulières",
+    ],
+  },
+  {
+    company: "Express plomberie",
+    sector: "Plombier artisan",
+    period: "Mars — Avril 2025",
+    type: "Site vitrine",
+    url: "https://express-plomberie.com",
+    icon: "images/icons/express-plomberie.png",
+    tasks: [
+      "Site vitrine pour un plombier d'urgence 24h/24",
+      "Cahier des charges orienté conversion client",
+      "Design et maquettage de l'interface",
+      "Développement et déploiement de la solution",
+      "Optimisation SEO pour le référencement local",
+      "Support technique et maintenance régulière",
     ],
   },
   {
@@ -148,20 +164,39 @@ const experiences = [
       "Maintenance et évolutions régulières du site",
     ],
   },
+];
+
+const otherProjects = [
   {
-    company: "Express plomberie",
-    sector: "Plombier artisan",
-    period: "Oct. — Nov. 2024",
-    type: "Site vitrine",
-    url: "https://express-plomberie.com",
-    icon: "images/icons/express-plomberie.png",
+    company: "Kasa",
+    sector: "Location entre particuliers",
+    period: "Sept. — Oct. 2022",
+    type: "Application React",
+    url: "https://andyrama.github.io/AndyRamaroson_11_25112021/",
+    icon: "images/icons/kasa.png",
     tasks: [
-      "Site vitrine pour un plombier d'urgence 24h/24",
-      "Cahier des charges orienté conversion client",
-      "Design et maquettage de l'interface",
-      "Développement et déploiement de la solution",
-      "Optimisation SEO pour le référencement local",
-      "Support technique et maintenance régulière",
+      "Refonte d'une plateforme de location legacy en ASP.NET",
+      "Migration complète vers une stack JavaScript (React)",
+      "Développement des composants à partir de la maquette Figma",
+      "Mise en place du routing avec React Router",
+      "Respect de coding guidelines strictes fournies par le client",
+      "Structuration des routes dans un fichier dédié",
+    ],
+  },
+  {
+    company: "WealthHealth",
+    sector: "RH",
+    period: "Janv. — Fév. 2023",
+    type: "Refonte React (HRnet)",
+    url: "https://andy-ramaroson-14-25112021.vercel.app",
+    icon: "images/icons/wealthhealth.png",
+    tasks: [
+      "Migration d'une application RH de jQuery vers React",
+      "Remplacement des plugins jQuery par des équivalents React",
+      "Création et publication d'un plugin modale sur npm",
+      "Refonte du design, cohérente avec l'identité de l'entreprise",
+      "Déploiement front-end et comparatif de performances",
+      "Analyse des performances avec Lighthouse",
     ],
   },
 ];
@@ -434,14 +469,14 @@ export default function CVPage() {
             </div>
 
             {/* Autres projets */}
-            {/* <div>
-              <SectionTitle>Autres projets</SectionTitle>
+            <div>
+              <SectionTitle>Autres projets Formation</SectionTitle>
               <div className="flex flex-col gap-8">
                 {otherProjects.map((exp, i) => (
                   <ExperienceBlock key={exp.company} exp={exp} index={i} />
                 ))}
               </div>
-            </div> */}
+            </div>
 
           </div>
         </div>
