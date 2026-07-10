@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Variants } from "motion/react";
 import { motion } from "motion/react";
 import Image from "next/image";
@@ -348,6 +349,11 @@ const contactItems: ContactItem[] = [
 ];
 
 export default function CVPage() {
+  const [showAllExperiences, setShowAllExperiences] = useState(false);
+  const visibleExperiences = showAllExperiences
+    ? experiences
+    : experiences.slice(0, 5); // jusqu'à Lemurian agency inclus
+    
   return (
     <main className="min-h-screen bg-white px-6 md:px-12 lg:px-20 py-20">
       <div className="max-w-4xl mx-auto">
@@ -458,15 +464,38 @@ export default function CVPage() {
           {/* ── Right main ── */}
           <div className="flex flex-col gap-12">
 
-            {/* Expériences */}
-            <div>
-              <SectionTitle>Expériences</SectionTitle>
-              <div className="flex flex-col gap-8">
-                {experiences.map((exp, i) => (
-                  <ExperienceBlock key={exp.company} exp={exp} index={i} />
-                ))}
-              </div>
+          {/* Expériences */}
+          <div>
+            <SectionTitle>Expériences</SectionTitle>
+            <div className="flex flex-col gap-8">
+              {visibleExperiences.map((exp, i) => (
+                <ExperienceBlock key={exp.company} exp={exp} index={i} />
+              ))}
             </div>
+
+            {experiences.length > 5 && (
+              <div className="flex justify-center mt-8">
+                <button
+                  onClick={() => setShowAllExperiences((prev) => !prev)}
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 text-sm font-semibold text-zinc-600 border border-zinc-200 rounded-full hover:text-zinc-900 hover:border-zinc-300 hover:bg-zinc-50 transition-colors duration-200"
+                >
+                  {showAllExperiences ? "Voir moins" : "Voir plus de projets"}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={`h-3.5 w-3.5 transition-transform duration-200 ${
+                      showAllExperiences ? "rotate-180" : ""
+                    }`}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2.5}
+                  >
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+              </div>
+            )}
+          </div>
 
             {/* Autres projets */}
             <div>
