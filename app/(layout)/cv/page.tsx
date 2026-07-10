@@ -44,7 +44,7 @@ const experiences = [
     period: "Mars — Avril 2026",
     type: "Site vitrine + blog",
     url: "https://renovexp.vercel.app",
-    icon: "images/icons/renov-expert.png",
+    icon: "/images/icons/renov-expert.png",
     tasks: [
       "Développement d'un site vitrine pour un menuisier",
       "Cahier des charges défini avec le client",
@@ -60,7 +60,7 @@ const experiences = [
     period: "Oct. 2025 — Fev. 2026",
     type: "Site vitrine + blog",
     url: "https://segment-c.com",
-    icon: "images/icons/segment-c.png",
+    icon: "/images/icons/segment-c.png",
     tasks: [
       "Site vitrine pour une entreprise de menuiserie",
       "Catalogue de réalisations organisé par prestation",
@@ -76,7 +76,7 @@ const experiences = [
     period: "Sept. — Oct. 2025",
     type: "Site vitrine + blog",
     url: "https://mon-agent-ia-seven.vercel.app",
-    icon: "images/icons/mon-agent-ai.png",
+    icon: "/images/icons/mon-agent-ai.png",
     tasks: [
       "Plateforme showcase pour l'accompagnement en IA",
       "Définition du périmètre fonctionnel et technique",
@@ -91,7 +91,7 @@ const experiences = [
     period: "Août — Sept. 2025",
     type: "Site vitrine + blog",
     url: "https://unlcoaching.com",
-    icon: "images/icons/unlcoaching.png",
+    icon: "/images/icons/unlcoaching.png",
     tasks: [
       "Plateforme web développée pour un coach sportif",
       "Analyse des besoins et cahier des charges",
@@ -107,7 +107,7 @@ const experiences = [
     period: "Mai  — Juin 2025",
     type: "Plateforme SaaS",
     url: "https://lemurian.agency",
-    icon: "images/icons/lemurian-agency.png",
+    icon: "/images/icons/lemurian-agency.png",
     tasks: [
       "Agence SEO local pour artisans et indépendants",
       "Stratégie de contenu et de référencement",
@@ -122,7 +122,7 @@ const experiences = [
     period: "Mars — Avril 2025",
     type: "Plateforme SaaS",
     url: "https://docto-iota.vercel.app",
-    icon: "images/icons/i-doctor.png",
+    icon: "/images/icons/i-doctor.png",
     tasks: [
       "Assistant IA pour la prise de RDV par téléphone",
       "Gestion de planning optimisée pour les médecins",
@@ -138,7 +138,7 @@ const experiences = [
     period: "sept. — Oct 2025",
     type: "Site vitrine",
     url: "https://express-plomberie.com",
-    icon: "images/icons/express-plomberie.png",
+    icon: "/images/icons/express-plomberie.png",
     tasks: [
       "Site vitrine pour un plombier d'urgence 24h/24",
       "Cahier des charges orienté conversion client",
@@ -154,7 +154,7 @@ const experiences = [
     period: "Juin — Juil. 2023",
     type: "Site vitrine + blog",
     url: "https://andyramaroson.com",
-    icon: "images/icons/andy-ramaroson.png",
+    icon: "/images/icons/andy-ramaroson.png",
     tasks: [
       "Conception du portfolio personnel de A à Z",
       "Création de l'identité visuelle du site",
@@ -173,7 +173,7 @@ const otherProjects = [
     period: "Janv. — Fév. 2023",
     type: "Refonte React (HRnet)",
     url: "https://andy-ramaroson-14-25112021.vercel.app",
-    icon: "images/icons/wealthhealth.png",
+    icon: "/images/icons/wealthhealth.png",
     tasks: [
       "Migration d'une application RH de jQuery vers React",
       "Remplacement des plugins jQuery par des équivalents React",
@@ -189,7 +189,7 @@ const otherProjects = [
     period: "Sept. — Oct. 2022",
     type: "Application React",
     url: "https://andyrama.github.io/AndyRamaroson_11_25112021/",
-    icon: "images/icons/kasa.png",
+    icon: "/images/icons/kasa.png",
     tasks: [
       "Refonte d'une plateforme de location legacy en ASP.NET",
       "Migration complète vers une stack JavaScript (React)",
@@ -477,7 +477,6 @@ export default function CVPage() {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
       </div>
