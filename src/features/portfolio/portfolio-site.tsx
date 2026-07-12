@@ -75,6 +75,60 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Réalisations Segment-c menuiserie",
     ],
   },
+    {
+    id: "mon-agent-ai",
+    client: "Mon Agent I.A",
+    category: "Intelligence Artificielle · Bordeaux",
+    tags: ["Site vitrine", "Agent I.A", "SEO"],
+    description:
+      "Site vitrine pour une agence spécialisée en agents I.A — conçu pour démontrer l'expertise et générer des demandes de démo.",
+    highlights: [
+      "Design moderne axé crédibilité tech",
+      "Pages cas d'usage par secteur d'activité",
+      "SEO ciblé requêtes agent I.A & automatisation",
+      "Formulaire de demande de démo optimisé",
+    ],
+    href: "https://www.mon-agent-ai.com",
+    images: [
+      "/images/mon-agent-ai-hero.webp",
+      "/images/mon-agent-ai-service.webp",
+      "/images/mon-agent-ai-pricing.webp",
+      "/images/dashboard-admin.webp",
+    ],
+    alts: [
+      "Page d'accueil Mon Agent I.A Bordeaux",
+      "Page services Mon Agent I.A Bordeaux",
+      "Page tarifs Mon Agent I.A Bordeaux",
+      "Page admin général Mon Agent I.A Bordeaux",
+    ],
+  },
+  {
+    id: "unlcoaching",
+    client: "Unlcoaching",
+    category: "Coach sportif · Gradignan",
+    tags: ["Site vitrine", "SEO local", "Leads"],
+    description:
+      "Site orienté capture de leads pour un coach sportif face à une forte concurrence locale sur Google.",
+    highlights: [
+      "Landing page optimisée pour la prise de contact",
+      "Stratégie SEO local marque & mots-clés",
+      "Création de contenu I.A thématique",
+      "Campagne d'avis clients automatisée",
+    ],
+    href: "https://www.unlcoaching.com",
+    images: [
+      "/images/unl-home.webp",
+      "/images/unl-blog.webp",
+      "/images/unl-dashboard.webp",
+      "/images/unl-pricing.webp",
+    ],
+    alts: [
+      "Page d'accueil site Unlcoaching coach sportif Gradignan",
+      "page articles de blog Unlcoaching Gradignan",
+      "Formulaire de contact coach sportif Gradignan",
+      "Page services coaching sportif personnalisé",
+    ],
+  },
   {
     id: "lemurian-agency",
     client: "Lemurian Agency",
@@ -129,60 +183,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Interface de gestion des rendez-vous i-Doctor",
     ],
   },
-   {
-    id: "unlcoaching",
-    client: "Unlcoaching",
-    category: "Coach sportif · Gradignan",
-    tags: ["Site vitrine", "SEO local", "Leads"],
-    description:
-      "Site orienté capture de leads pour un coach sportif face à une forte concurrence locale sur Google.",
-    highlights: [
-      "Landing page optimisée pour la prise de contact",
-      "Stratégie SEO local marque & mots-clés",
-      "Création de contenu I.A thématique",
-      "Campagne d'avis clients automatisée",
-    ],
-    href: "https://www.unlcoaching.com",
-    images: [
-      "/images/unl-home.webp",
-      "/images/unl-blog.webp",
-      "/images/unl-dashboard.webp",
-      "/images/unl-pricing.webp",
-    ],
-    alts: [
-      "Page d'accueil site Unlcoaching coach sportif Gradignan",
-      "page articles de blog Unlcoaching Gradignan",
-      "Formulaire de contact coach sportif Gradignan",
-      "Page services coaching sportif personnalisé",
-    ],
-  },
-  {
-    id: "mon-agent-ai",
-    client: "Mon Agent I.A",
-    category: "Intelligence Artificielle · Bordeaux",
-    tags: ["Site vitrine", "Agent I.A", "SEO"],
-    description:
-      "Site vitrine pour une agence spécialisée en agents I.A — conçu pour démontrer l'expertise et générer des demandes de démo.",
-    highlights: [
-      "Design moderne axé crédibilité tech",
-      "Pages cas d'usage par secteur d'activité",
-      "SEO ciblé requêtes agent I.A & automatisation",
-      "Formulaire de demande de démo optimisé",
-    ],
-    href: "https://www.mon-agent-ai.com",
-    images: [
-      "/images/mon-agent-ai-hero.webp",
-      "/images/mon-agent-ai-service.webp",
-      "/images/mon-agent-ai-pricing.webp",
-      "/images/dashboard-admin.webp",
-    ],
-    alts: [
-      "Page d'accueil Mon Agent I.A Bordeaux",
-      "Page services Mon Agent I.A Bordeaux",
-      "Page tarifs Mon Agent I.A Bordeaux",
-      "Page admin général Mon Agent I.A Bordeaux",
-    ],
-  },
+
   {
     id: "expresse-depanage",
     client: "Expresse Dépannage",
@@ -208,33 +209,6 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Services dépannage urgence Bordeaux",
       "Contact dépannage urgent Gironde",
       "Actulité intervention courante Gironde",
-    ],
-  },
-  {
-    id: "dr-campagne",
-    client: "Cabinet Dr Campagne F.",
-    category: "Santé · Médoc",
-    tags: ["Site RDV", "Agent I.A", "GBP"],
-    description:
-      "Site médical avec prise de rendez-vous en ligne et agent vocal I.A pour gérer le planning automatiquement.",
-    highlights: [
-      "Prise de RDV en ligne intégrée",
-      "Agent I.A vocal pour le calendrier",
-      "Optimisation GBP spécialités médicales",
-      "Design sobre et rassurant pour les patients",
-    ],
-    href: "/realisations/dr-campagne",
-    images: [
-      "/images/dr-campagne-1.jpg",
-      "/images/dr-campagne-2.jpg",
-      "/images/dr-campagne-3.jpg",
-      "/images/dr-campagne-4.jpg",
-    ],
-    alts: [
-      "Page d'accueil cabinet médical Dr Campagne Médoc",
-      "Prise de rendez-vous en ligne Dr Campagne",
-      "Services médicaux cabinet Dr Campagne F.",
-      "Contact cabinet médical Médoc",
     ],
   },
   {
