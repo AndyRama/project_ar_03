@@ -20,6 +20,115 @@ type PortfolioSite = {
 };
 
 const PORTFOLIO_SITES: PortfolioSite[] = [
+  {
+    id: "renov-exp",
+    client: "Renov Exp",
+    category: "Menuiserie · Mérignac",
+    tags: ["Site vitrine", "Devis en ligne", "SEO local"],
+    description:
+      "Site vitrine de Mathieu Hernandez, menuisier à Mérignac : plus de 200 chantiers réalisés en Gironde (fenêtres, baies vitrées, pergolas bioclimatiques, volets). Devis en ligne sous 48h et suivi SAV pour rassurer une clientèle exigeante.",
+    highlights: [
+      "Devis en ligne sous 48h",
+      "Plus de 200 chantiers réalisés en Gironde",
+      "Catalogue fenêtres, baies vitrées, pergolas, volets",
+      "Suivi SAV intégré pour rassurer les clients",
+    ],
+    href: "https://renovexp.vercel.app/",
+    // TODO: remplacer par 4 vraies captures d'écran une fois disponibles
+    images: [
+      "/images/renov-exp.jpg",
+      "/images/renov-exp.jpg",
+      "/images/renov-exp.jpg",
+      "/images/renov-exp.jpg",
+    ],
+    alts: [
+      "Page d'accueil Renov Exp menuiserie Mérignac",
+      "Catalogue fenêtres et baies vitrées Renov Exp",
+      "Formulaire de devis en ligne Renov Exp",
+      "Réalisations chantiers Renov Exp Gironde",
+    ],
+  },
+  {
+    id: "segment-c",
+    client: "Segment-c",
+    category: "Menuiserie · Saint-Jean-d'Illac",
+    tags: ["Site vitrine", "Catalogue produits", "Devis"],
+    description:
+      "Vitrine pour Segment.C, l'entreprise de menuiserie de Rui De Carvalho à Saint-Jean-d'Illac. Catalogue complet (portes, fenêtres, baie vitrée, volets) pensé pour convertir les visiteurs en demandes de devis.",
+    highlights: [
+      "Catalogue complet portes, fenêtres, baies vitrées, volets",
+      "Parcours pensé pour la conversion en devis",
+      "Présentation claire du savoir-faire artisanal",
+      "Design sobre et professionnel",
+    ],
+    href: "https://www.segment-c.com",
+    images: [
+      "/images/segment-c.jpg",
+      "/images/segment-c.jpg",
+      "/images/segment-c.jpg",
+      "/images/segment-c.jpg",
+    ],
+    alts: [
+      "Page d'accueil Segment-c menuiserie Saint-Jean-d'Illac",
+      "Catalogue produits Segment-c",
+      "Page devis Segment-c",
+      "Réalisations Segment-c menuiserie",
+    ],
+  },
+  {
+    id: "lemurian-agency",
+    client: "Lemurian Agency",
+    category: "Agence SEO · Artisans & indépendants",
+    tags: ["Site vitrine", "SEO local", "Lead partagé"],
+    description:
+      "Création de sites et SEO local dédiée aux artisans et indépendants. Stratégie de contenu, optimisation Google Business Profile et modèle au lead partagé, pour transformer la visibilité Google en rendez-vous qualifiés.",
+    highlights: [
+      "Stratégie de contenu sur mesure",
+      "Optimisation Google Business Profile",
+      "Modèle au lead partagé pour les artisans",
+      "Visibilité Google transformée en rendez-vous qualifiés",
+    ],
+    href: "https://www.lemurian.agency",
+    images: [
+      "/images/lemurian-agency.jpg",
+      "/images/lemurian-agency.jpg",
+      "/images/lemurian-agency.jpg",
+      "/images/lemurian-agency.jpg",
+    ],
+    alts: [
+      "Page d'accueil Lemurian Agency",
+      "Services SEO local Lemurian Agency",
+      "Modèle lead partagé Lemurian Agency",
+      "Réalisations Lemurian Agency artisans",
+    ],
+  },
+  {
+    id: "idoctor",
+    client: "i-Doctor",
+    category: "Santé · Prise de RDV téléphonique I.A",
+    tags: ["Site RDV", "Agent I.A vocal", "Side project"],
+    description:
+      "i-Doctor est une plateforme innovante permettant de mettre en service une prise de rendez-vous par téléphone avec un assistant I.A. Elle permet aux médecins de planifier facilement leurs consultations, tout en optimisant efficacement la gestion de leur emploi du temps.",
+    highlights: [
+      "Prise de rendez-vous par téléphone avec assistant I.A",
+      "Planning de consultations simplifié pour les médecins",
+      "Optimisation automatique de l'emploi du temps",
+      "Side project d'exploration agent vocal I.A",
+    ],
+    href: "https://docto-iota.vercel.app",
+    images: [
+      "/images/idoctor.jpg",
+      "/images/idoctor.jpg",
+      "/images/idoctor.jpg",
+      "/images/idoctor.jpg",
+    ],
+    alts: [
+      "Page d'accueil i-Doctor prise de RDV I.A",
+      "Agent vocal I.A i-Doctor",
+      "Planning médecin i-Doctor",
+      "Interface de gestion des rendez-vous i-Doctor",
+    ],
+  },
    {
     id: "unlcoaching",
     client: "Unlcoaching",
@@ -101,31 +210,112 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Actulité intervention courante Gironde",
     ],
   },
+  // {
+  //   id: "dr-campagne",
+  //   client: "Cabinet Dr Campagne F.",
+  //   category: "Santé · Médoc",
+  //   tags: ["Site RDV", "Agent I.A", "GBP"],
+  //   description:
+  //     "Site médical avec prise de rendez-vous en ligne et agent vocal I.A pour gérer le planning automatiquement.",
+  //   highlights: [
+  //     "Prise de RDV en ligne intégrée",
+  //     "Agent I.A vocal pour le calendrier",
+  //     "Optimisation GBP spécialités médicales",
+  //     "Design sobre et rassurant pour les patients",
+  //   ],
+  //   href: "/realisations/dr-campagne",
+  //   images: [
+  //     "/images/dr-campagne-1.jpg",
+  //     "/images/dr-campagne-2.jpg",
+  //     "/images/dr-campagne-3.jpg",
+  //     "/images/dr-campagne-4.jpg",
+  //   ],
+  //   alts: [
+  //     "Page d'accueil cabinet médical Dr Campagne Médoc",
+  //     "Prise de rendez-vous en ligne Dr Campagne",
+  //     "Services médicaux cabinet Dr Campagne F.",
+  //     "Contact cabinet médical Médoc",
+  //   ],
+  // },
   {
-    id: "dr-campagne",
-    client: "Cabinet Dr Campagne F.",
-    category: "Santé · Médoc",
-    tags: ["Site RDV", "Agent I.A", "GBP"],
+    id: "portfolio-perso",
+    client: "Portfolio personnel",
+    category: "Side project · Next.js",
+    tags: ["Portfolio", "Next.js", "Motion"],
     description:
-      "Site médical avec prise de rendez-vous en ligne et agent vocal I.A pour gérer le planning automatiquement.",
+      "Refonte complète de mon portfolio personnel : Next.js, React, Tailwind CSS et Motion, déployé sur VPS via Coolify. Un terrain d'expérimentation permanent pour tester de nouvelles approches techniques.",
     highlights: [
-      "Prise de RDV en ligne intégrée",
-      "Agent I.A vocal pour le calendrier",
-      "Optimisation GBP spécialités médicales",
-      "Design sobre et rassurant pour les patients",
+      "Stack Next.js, React, Tailwind CSS et Motion",
+      "Déploiement sur VPS via Coolify",
+      "Terrain d'expérimentation technique permanent",
+      "Refonte complète du design et de l'architecture",
     ],
-    href: "/realisations/dr-campagne",
+    href: "https://lemurian.agency",
     images: [
-      "/portfolio/dr-campagne-1.jpg",
-      "/portfolio/dr-campagne-2.jpg",
-      "/portfolio/dr-campagne-3.jpg",
-      "/portfolio/dr-campagne-4.jpg",
+      "/images/portfolio-perso.jpg",
+      "/images/portfolio-perso.jpg",
+      "/images/portfolio-perso.jpg",
+      "/images/portfolio-perso.jpg",
     ],
     alts: [
-      "Page d'accueil cabinet médical Dr Campagne Médoc",
-      "Prise de rendez-vous en ligne Dr Campagne",
-      "Services médicaux cabinet Dr Campagne F.",
-      "Contact cabinet médical Médoc",
+      "Page d'accueil portfolio personnel Andy Ramaroson",
+      "Section projets portfolio personnel",
+      "Design et animations Motion du portfolio",
+      "Architecture technique du portfolio personnel",
+    ],
+  },
+  {
+    id: "wealth-health",
+    client: "WealthHealth",
+    category: "Side project OCR · Formation HRnet",
+    tags: ["Front-End", "Formation OCR"],
+    description:
+      "Application web interne pour l'entreprise HRnet. Permet de lister les employés avec création via formulaire, modal de confirmation et tableau récapitulatif des données.",
+    highlights: [
+      "Liste des employés avec formulaire de création",
+      "Modal de confirmation à la saisie",
+      "Tableau récapitulatif filtrable des données",
+      "Projet réalisé dans le cadre de la formation OCR",
+    ],
+    href: "https://wealth-health-phi.vercel.app",
+    images: [
+      "/images/wealth-health.jpg",
+      "/images/wealth-health.jpg",
+      "/images/wealth-health.jpg",
+      "/images/wealth-health.jpg",
+    ],
+    alts: [
+      "Page d'accueil WealthHealth HRnet",
+      "Formulaire de création d'employé WealthHealth",
+      "Modal de confirmation WealthHealth",
+      "Tableau récapitulatif des employés WealthHealth",
+    ],
+  },
+  {
+    id: "kasa",
+    client: "Kasa",
+    category: "Side project OCR · Location entre particuliers",
+    tags: ["Front-End", "Formation OCR"],
+    description:
+      "Refonte totale du site Kasa, plateforme de location de logements entre particuliers. Migration depuis ASP.NET vers une stack JavaScript moderne avec Node.js côté back-end et React côté front-end.",
+    highlights: [
+      "Migration ASP.NET vers stack JavaScript moderne",
+      "Back-end Node.js, front-end React",
+      "Plateforme de location entre particuliers",
+      "Projet réalisé dans le cadre de la formation OCR",
+    ],
+    href: "https://andyrama.github.io/AndyRamaroson_11_25112021/",
+    images: [
+      "/images/kasa.jpg",
+      "/images/kasa.jpg",
+      "/images/kasa.jpg",
+      "/images/kasa.jpg",
+    ],
+    alts: [
+      "Page d'accueil Kasa location entre particuliers",
+      "Liste des logements Kasa",
+      "Détail d'un logement Kasa",
+      "Réservation logement Kasa",
     ],
   },
 ];
@@ -163,7 +353,7 @@ const ImageSlider = ({
             src={src}
             alt={alts[i]}
             fill
-            className="object-fill rounded-t-md"
+            className="object-fill rounded-md"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
