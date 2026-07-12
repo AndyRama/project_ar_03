@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
@@ -210,33 +210,33 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Actulité intervention courante Gironde",
     ],
   },
-  // {
-  //   id: "dr-campagne",
-  //   client: "Cabinet Dr Campagne F.",
-  //   category: "Santé · Médoc",
-  //   tags: ["Site RDV", "Agent I.A", "GBP"],
-  //   description:
-  //     "Site médical avec prise de rendez-vous en ligne et agent vocal I.A pour gérer le planning automatiquement.",
-  //   highlights: [
-  //     "Prise de RDV en ligne intégrée",
-  //     "Agent I.A vocal pour le calendrier",
-  //     "Optimisation GBP spécialités médicales",
-  //     "Design sobre et rassurant pour les patients",
-  //   ],
-  //   href: "/realisations/dr-campagne",
-  //   images: [
-  //     "/images/dr-campagne-1.jpg",
-  //     "/images/dr-campagne-2.jpg",
-  //     "/images/dr-campagne-3.jpg",
-  //     "/images/dr-campagne-4.jpg",
-  //   ],
-  //   alts: [
-  //     "Page d'accueil cabinet médical Dr Campagne Médoc",
-  //     "Prise de rendez-vous en ligne Dr Campagne",
-  //     "Services médicaux cabinet Dr Campagne F.",
-  //     "Contact cabinet médical Médoc",
-  //   ],
-  // },
+  {
+    id: "dr-campagne",
+    client: "Cabinet Dr Campagne F.",
+    category: "Santé · Médoc",
+    tags: ["Site RDV", "Agent I.A", "GBP"],
+    description:
+      "Site médical avec prise de rendez-vous en ligne et agent vocal I.A pour gérer le planning automatiquement.",
+    highlights: [
+      "Prise de RDV en ligne intégrée",
+      "Agent I.A vocal pour le calendrier",
+      "Optimisation GBP spécialités médicales",
+      "Design sobre et rassurant pour les patients",
+    ],
+    href: "/realisations/dr-campagne",
+    images: [
+      "/images/dr-campagne-1.jpg",
+      "/images/dr-campagne-2.jpg",
+      "/images/dr-campagne-3.jpg",
+      "/images/dr-campagne-4.jpg",
+    ],
+    alts: [
+      "Page d'accueil cabinet médical Dr Campagne Médoc",
+      "Prise de rendez-vous en ligne Dr Campagne",
+      "Services médicaux cabinet Dr Campagne F.",
+      "Contact cabinet médical Médoc",
+    ],
+  },
   {
     id: "portfolio-perso",
     client: "Portfolio personnel",
@@ -320,8 +320,6 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
   },
 ];
 
-const INITIAL_COUNT = 1;
-
 const SLIDE_DURATION = 3000;
 
 const ImageSlider = ({
@@ -353,7 +351,7 @@ const ImageSlider = ({
             src={src}
             alt={alts[i]}
             fill
-            className="object-fill rounded-md"
+            className="object-fill rounded-t-md"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
@@ -455,21 +453,7 @@ const PortfolioCard = ({ site, isFirst }: { site: PortfolioSite; isFirst: boolea
   );
 };
 
-const STEPS = [1, 3, PORTFOLIO_SITES.length] as const;
-
 export const PortfolioShowcase = () => {
-  const [step, setStep] = useState(0);
-  const visibleSites = PORTFOLIO_SITES.slice(0, STEPS[step]);
-
-  const nextStep = () => setStep((s) => (s + 1) % STEPS.length);
-
-  const btnLabel = () => {
-    if (step === STEPS.length - 1) return "Réduire";
-    return `Voir les ${STEPS[step + 1]} réalisations`;
-  };
-
-  const BtnIcon = step === 2 ? ChevronUp : ChevronDown;
-
   return (
     <section id="portfolio" className="py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
@@ -489,19 +473,9 @@ export const PortfolioShowcase = () => {
 
         {/* Cards */}
         <div className="flex flex-col gap-6">
-          {visibleSites.map((site, index) => (
+          {PORTFOLIO_SITES.map((site, index) => (
             <PortfolioCard key={site.id} site={site} isFirst={index === 0} />
           ))}
-        </div>
-
-        {/* Toggle btn */}
-        <div className="mt-10 flex justify-center">
-          <button
-            onClick={nextStep}
-            className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-all hover:border-orange-500/50 hover:text-orange-500 active:scale-95"
-          >
-            {btnLabel()} <BtnIcon size={16} />
-          </button>
         </div>
 
       </div>
