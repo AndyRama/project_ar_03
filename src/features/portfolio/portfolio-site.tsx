@@ -36,7 +36,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     href: "https://renovexp.vercel.app/",
     // TODO: remplacer par 4 vraies captures d'écran une fois disponibles
     images: [
-      "/images/renov-exp.jpg",
+      "/images/renov-expert.jpg",
       "/images/renov-exp.jpg",
       "/images/renov-exp.jpg",
       "/images/renov-exp.jpg",
@@ -63,7 +63,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://www.segment-c.com",
     images: [
-      "/images/segment-c.jpg",
+      "/images/segment-hero.webp",
       "/images/segment-c.jpg",
       "/images/segment-c.jpg",
       "/images/segment-c.jpg",
@@ -144,10 +144,10 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://www.lemurian.agency",
     images: [
-      "/images/lemurian-agency.jpg",
-      "/images/lemurian-agency.jpg",
-      "/images/lemurian-agency.jpg",
-      "/images/lemurian-agency.jpg",
+      "/images/lemurian-hero.webp",
+      "/images/lemurian-service.webp",
+      "/images/lemurian-service1.webp",
+      "/images/lemurian-agency-formulaire.webp",
     ],
     alts: [
       "Page d'accueil Lemurian Agency",
@@ -171,7 +171,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://docto-iota.vercel.app",
     images: [
-      "/images/idoctor.jpg",
+      "/images/home-cabinet.png",
       "/images/idoctor.jpg",
       "/images/idoctor.jpg",
       "/images/idoctor.jpg",
@@ -224,9 +224,9 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Terrain d'expérimentation technique permanent",
       "Refonte complète du design et de l'architecture",
     ],
-    href: "https://lemurian.agency",
+    href: "https://andyraroson.com",
     images: [
-      "/images/portfolio-perso.jpg",
+      "/images/portfolio.png",
       "/images/portfolio-perso.jpg",
       "/images/portfolio-perso.jpg",
       "/images/portfolio-perso.jpg",
@@ -253,7 +253,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://wealth-health-phi.vercel.app",
     images: [
-      "/images/wealth-health.jpg",
+      "/images/WealtHealth_1.png",
       "/images/wealth-health.jpg",
       "/images/wealth-health.jpg",
       "/images/wealth-health.jpg",
@@ -280,7 +280,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://andyrama.github.io/AndyRamaroson_11_25112021/",
     images: [
-      "/images/kasa.jpg",
+      "/images/HomeKasa.png",
       "/images/kasa.jpg",
       "/images/kasa.jpg",
       "/images/kasa.jpg",
