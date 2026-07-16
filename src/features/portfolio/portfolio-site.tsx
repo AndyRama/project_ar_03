@@ -36,7 +36,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     href: "https://renovexp.vercel.app/",
     // TODO: remplacer par 4 vraies captures d'écran une fois disponibles
     images: [
-      "/images/renov-exp.jpg",
+      "/images/renov-expert.jpg",
       "/images/renov-exp-galery.webp",
       "/images/renov-exp-services.webp",
       "/images/renov-exp-testimonial.webp",
@@ -54,7 +54,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     category: "Menuiserie · Saint-Jean-d'Illac",
     tags: ["Site vitrine", "Catalogue produits", "Devis"],
     description:
-      "Vitrine pour Segment.C, l'entreprise de menuiserie de Rui De Carvalho à Saint-Jean-d'Illac. Catalogue complet (portes, fenêtres, baie vitrée, volets) pensé pour convertir les visiteurs en demandes de devis.",
+      "Vitrine pour Segment.C, l'entreprise de menuiserie de Rui De Carvalho à Saint-Jean-d'Illac. Catalogue complet de plus de 340 produits (portes, fenêtres, baie vitrée, volets) pensé pour convertir les visiteurs en demandes de devis.",
     highlights: [
       "Catalogue complet portes, fenêtres, baies vitrées, volets",
       "Parcours pensé pour la conversion en devis",
@@ -324,7 +324,7 @@ const ImageSlider = ({
             src={src}
             alt={alts[i]}
             fill
-            className="object-fill rounded-t-md"
+            className="object-fill rounded-md"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
