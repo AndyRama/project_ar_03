@@ -65,7 +65,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     images: [
       "/images/segment-hero.webp",
       "/images/dashboard-admin-devis.webp",
-      "/images/dashboard-admin-articles.webp",
+      "/images/gmb-graphique.jpg",
       "/images/dashboard-admin-produits.webp",
     ],
     alts: [
