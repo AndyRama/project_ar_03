@@ -279,10 +279,10 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://andyrama.github.io/AndyRamaroson_11_25112021/",
     images: [
-      "/images/kasa.jpg",
-      "/images/kasa.jpg",
-      "/images/kasa.jpg",
-      "/images/kasa.jpg",
+      "/images/kasa-hero.webp",
+      "/images/kasa-details.webp",
+      "/images/kasa-faq.webp",
+      "/images/kasa-404.webp",
     ],
     alts: [
       "Page d'accueil Kasa location entre particuliers",
