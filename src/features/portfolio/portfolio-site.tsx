@@ -146,8 +146,8 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     images: [
       "/images/unl-home.webp",
       "/images/unl-blog.webp",
-      "/images/unl-dashboard.webp",
-      "/images/unl-pricing.webp",
+      "/images/unl-prestation.webp",
+      "/images/unl-checkout.webp",
     ],
     alts: [
       "Page d'accueil site Unlcoaching coach sportif Gradignan",
