@@ -117,10 +117,10 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://docto-iota.vercel.app",
     images: [
-      "/images/idoctor.jpg",
-      "/images/idoctor.jpg",
-      "/images/idoctor.jpg",
-      "/images/idoctor.jpg",
+      "/images/docto-hero.webp",
+      "/images/docto-content.webp",
+      "/images/docto-rdv.webp",
+      "/images/doctor-rdv-modal.webp",
     ],
     alts: [
       "Page d'accueil i-Doctor prise de RDV I.A",
