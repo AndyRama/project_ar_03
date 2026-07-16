@@ -402,6 +402,7 @@ const PortfolioCard = ({ site, isFirst }: { site: PortfolioSite; isFirst: boolea
           <div className="flex flex-wrap items-center gap-1 pt-2">
             <Link
               href={site.href}
+              target="_blank"
               className="inline-flex items-center gap-2 rounded-md bg-orange-500 px-6 py-3 text-sm font-bold text-white uppercase tracking-wider transition-all hover:bg-orange-400 hover:shadow-lg hover:shadow-orange-500/20 active:scale-95"
             >
               Voir le site
