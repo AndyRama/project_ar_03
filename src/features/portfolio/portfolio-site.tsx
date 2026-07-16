@@ -169,7 +169,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "SEO ciblé requêtes agent I.A & automatisation",
       "Formulaire de demande de démo optimisé",
     ],
-    href: "https://www.mon-agent-ai.com",
+    href: "https://www.mon-agent-ia-seven.vercel.app",
     images: [
       "/images/mon-agent-ai-hero.webp",
       "/images/mon-agent-ai-service.webp",
@@ -223,7 +223,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "Terrain d'expérimentation technique permanent",
       "Refonte complète du design et de l'architecture",
     ],
-    href: "https://lemurian.agency",
+    href: "https://www.lemurian.agency",
     images: [
       "/images/portfolio-site.webp",
       "/images/portfolio-site-1.webp",
@@ -252,10 +252,10 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://wealth-health-phi.vercel.app",
     images: [
-      "/images/wealth-health.jpg",
-      "/images/wealth-health.jpg",
-      "/images/wealth-health.jpg",
-      "/images/wealth-health.jpg",
+      "/images/WealthHealth_formulaire.webp",
+      "/images/WealthHealth_modal.webp",
+      "/images/WealthHealth_tableau.webp",
+      "/images/WealthHealth_filtrage.webp",
     ],
     alts: [
       "Page d'accueil WealthHealth HRnet",
