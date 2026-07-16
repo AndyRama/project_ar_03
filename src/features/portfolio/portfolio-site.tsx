@@ -120,7 +120,7 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
       "/images/docto-hero.webp",
       "/images/docto-content.webp",
       "/images/docto-rdv.webp",
-      "/images/doctor-rdv-modal.webp",
+      "/images/docto-rdv-modal.webp",
     ],
     alts: [
       "Page d'accueil i-Doctor prise de RDV I.A",
