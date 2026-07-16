@@ -225,10 +225,10 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     ],
     href: "https://lemurian.agency",
     images: [
-      "/images/portfolio-perso.jpg",
-      "/images/portfolio-perso.jpg",
-      "/images/portfolio-perso.jpg",
-      "/images/portfolio-perso.jpg",
+      "/images/portfolio-site.webp",
+      "/images/portfolio-site-1.webp",
+      "/images/portfolio-site-2.webp",
+      "/images/portfolio-site-3.webp",
     ],
     alts: [
       "Page d'accueil portfolio personnel Andy Ramaroson",
