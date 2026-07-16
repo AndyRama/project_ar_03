@@ -65,14 +65,14 @@ const PORTFOLIO_SITES: PortfolioSite[] = [
     images: [
       "/images/segment-hero.webp",
       "/images/dashboard-admin-devis.webp",
-      "/images/gmb-graphique.jpg",
+      "/images/gmb-graphique.webp",
       "/images/dashboard-admin-produits.webp",
     ],
     alts: [
       "Page d'accueil Segment-c menuiserie Saint-Jean-d'Illac",
-      "Catalogue produits Segment-c",
       "Page devis Segment-c",
-      "Réalisations Segment-c menuiserie",
+      "Page google search Segment-c",
+      "Page admin Segment-c menuiserie",
     ],
   },
   {
